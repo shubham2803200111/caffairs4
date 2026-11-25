@@ -1,0 +1,1877 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TOPPERS BLUEPRINT: UPPCS Prelims 2026 Current Affairs — English Edition (Q.301 to Q.400)</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', system-ui, -apple-system, sans-serif;
+      background-color: #f1f5f9;
+      color: #0f172a;
+    }
+    .grid-scroll::-webkit-scrollbar { width: 6px; }
+    .grid-scroll::-webkit-scrollbar-track { background: #f8fafc; border-radius: 8px; }
+    .grid-scroll::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 8px; }
+    .grid-scroll::-webkit-scrollbar-thumb:hover { background: #94a3b8; }
+    .match-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 0.75rem 0;
+      font-size: 0.88rem;
+    }
+    .match-table th, .match-table td {
+      border: 1px solid #cbd5e1;
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+      vertical-align: top;
+    }
+    .match-table th {
+      background-color: #eff6ff;
+      font-weight: 700;
+      color: #1e3a8a;
+    }
+    .match-table tr:nth-child(even) td {
+      background-color: #f8fafc;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col">
+
+  <!-- Sticky Top Navigation & Persistent Session Header -->
+  <header class="sticky top-0 z-30 bg-white border-b border-slate-200 shadow-sm">
+    <div class="max-w-[1440px] mx-auto px-4 py-3">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
+        <!-- Brand & Title -->
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-2.5">
+            <button id="homeLogoBtn" type="button"
+              class="inline-flex items-center justify-center px-2.5 h-9 rounded-xl bg-indigo-700 hover:bg-indigo-800 text-white font-extrabold text-xs tracking-wide shadow-sm transition cursor-pointer"
+              title="Back to Practice Quiz">
+              TB 2026
+            </button>
+            <div>
+              <div class="flex items-center gap-2 flex-wrap">
+                <span class="px-2.5 py-0.5 text-[11px] font-extrabold rounded-full bg-indigo-50 text-indigo-700 border border-indigo-200 uppercase tracking-wide">
+                  UPPCS PRELIMS 2026 • ENGLISH EDITION • Q.301–Q.400
+                </span>
+              </div>
+              <h1 class="text-sm sm:text-lg font-extrabold text-slate-900 tracking-tight mt-0.5">
+                TOPPERS BLUEPRINT: UPPCS Prelims 2026 Current Affairs (Questions 301 to 400)
+              </h1>
+              <p class="text-xs text-slate-500">
+                100 Code-Based MCQs (Q.301–Q.400) • Instant Answer Reveal &amp; English Explanations • Persistent Auto-Save &amp; Resume
+              </p>
+            </div>
+          </div>
+
+          <!-- Mobile Score Badge -->
+          <div id="mobileScoreBadge" class="lg:hidden px-3 py-1 rounded-full bg-slate-900 text-white text-xs font-bold">
+            0 / 100
+          </div>
+        </div>
+
+        <!-- Global Navigation Actions -->
+        <div class="flex flex-wrap items-center gap-2">
+          <button id="navQuizBtn" type="button"
+            class="px-3.5 py-1.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-xs sm:text-sm font-semibold transition cursor-pointer">
+            Practice Quiz
+          </button>
+          <button id="navRecordsBtn" type="button"
+            class="px-3.5 py-1.5 rounded-xl bg-amber-50 hover:bg-amber-100 text-amber-900 border border-amber-300 text-xs sm:text-sm font-semibold transition cursor-pointer">
+            Saved Records (<span id="recordsCountSpan">0</span>)
+          </button>
+          <button id="finishTopBtn" type="button"
+            class="px-3.5 py-1.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-xs sm:text-sm font-bold shadow-xs transition cursor-pointer">
+            Submit &amp; Detailed Result
+          </button>
+        </div>
+      </div>
+
+      <!-- Persistent Auto-Save & Reattempt Control Strip -->
+      <div class="mt-2.5 pt-2 border-t border-slate-100 flex flex-wrap items-center justify-between gap-2 text-xs">
+        <div class="flex flex-wrap items-center gap-2">
+          <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 font-semibold">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
+            <span id="persistentStatusText">Session Saved • At Q.301 • 0/100 Attempted</span>
+          </span>
+        </div>
+
+        <div class="flex flex-wrap items-center gap-2">
+          <button id="reattemptQuizBtn" type="button"
+            class="px-2.5 py-1 rounded-lg bg-rose-50 hover:bg-rose-100 text-rose-700 border border-rose-200 font-bold transition cursor-pointer"
+            title="Archives current attempt to Saved Records and resets quiz to Q.301">
+            Reattempt Quiz
+          </button>
+          <button id="exportJsonBtn" type="button"
+            class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 font-semibold transition cursor-pointer">
+            Export JSON
+          </button>
+          <button id="importJsonBtn" type="button"
+            class="px-2.5 py-1 rounded-lg bg-slate-100 hover:bg-slate-200 text-slate-700 border border-slate-300 font-semibold transition cursor-pointer">
+            Import JSON
+          </button>
+          <input type="file" id="importFileInput" accept="application/json,.json" class="hidden" />
+        </div>
+      </div>
+
+      <!-- Live 5-KPI Score Strip -->
+      <div class="mt-2.5 pt-2 border-t border-slate-100 grid grid-cols-2 sm:grid-cols-5 gap-2 text-xs">
+        <div class="px-3 py-1.5 rounded-xl bg-slate-50 border border-slate-200 flex items-center justify-between">
+          <span class="font-semibold text-slate-500">Progress</span>
+          <strong id="kpiProgress" class="text-slate-900 font-extrabold">0 / 100</strong>
+        </div>
+        <div class="px-3 py-1.5 rounded-xl bg-emerald-50 border border-emerald-200 flex items-center justify-between">
+          <span class="font-semibold text-emerald-700">Correct (+2.00)</span>
+          <strong id="kpiCorrect" class="text-emerald-800 font-extrabold">0</strong>
+        </div>
+        <div class="px-3 py-1.5 rounded-xl bg-rose-50 border border-rose-200 flex items-center justify-between">
+          <span class="font-semibold text-rose-700">Wrong (-0.66)</span>
+          <strong id="kpiWrong" class="text-rose-800 font-extrabold">0</strong>
+        </div>
+        <div class="px-3 py-1.5 rounded-xl bg-indigo-50 border border-indigo-200 flex items-center justify-between">
+          <span class="font-semibold text-indigo-700">UPPCS Net Score</span>
+          <strong id="kpiNetScore" class="text-indigo-800 font-extrabold">0.00</strong>
+        </div>
+        <div class="col-span-2 sm:col-span-1 px-3 py-1.5 rounded-xl bg-amber-50 border border-amber-200 flex items-center justify-between">
+          <span class="font-semibold text-amber-800">Accuracy %</span>
+          <strong id="kpiAccuracy" class="text-amber-900 font-extrabold">0.0%</strong>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Workspace -->
+  <main class="flex-1 max-w-[1440px] w-full mx-auto px-4 py-6">
+
+    <!-- ==================== VIEW 1: ACTIVE ENGLISH QUIZ ==================== -->
+    <section id="quizView" class="space-y-4">
+      <!-- Search & Question Format Filter Bar -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm px-4 py-3 flex flex-wrap items-center justify-between gap-3">
+        <div class="flex flex-wrap items-center gap-2 flex-1 min-w-[240px]">
+          <div class="relative flex-1 max-w-md">
+            <input type="text" id="quizSearchInput" placeholder="Search Q.301–400 by number, keyword, scheme, index..."
+              class="w-full bg-slate-50 border border-slate-300 text-slate-800 text-xs sm:text-sm rounded-xl pl-8 pr-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500" />
+            <svg class="w-3.5 h-3.5 text-slate-400 absolute left-2.5 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-4.35-4.35M17 11A6 6 0 115 11a6 6 0 0112 0z"/>
+            </svg>
+          </div>
+          <select id="formatFilterSelect"
+            class="bg-slate-50 border border-slate-300 text-slate-800 text-xs sm:text-sm font-semibold rounded-xl px-3 py-1.5 focus:outline-none focus:ring-2 focus:ring-indigo-500 cursor-pointer">
+            <option value="ALL">All Formats (100 Qs)</option>
+            <option value="Entity Code">Entity Code</option>
+            <option value="Two-Statement">Two-Statement</option>
+            <option value="Assertion-Reason">Assertion-Reason</option>
+            <option value="List-I/List-II Match">List-I/List-II Match</option>
+            <option value="Pair Verification">Pair Verification</option>
+            <option value="Chronological / Ranking">Chronological / Ranking</option>
+          </select>
+        </div>
+
+        <div class="flex items-center gap-2">
+          <span id="submittedBannerChip" class="hidden px-2.5 py-1 rounded-lg bg-emerald-100 text-emerald-800 text-xs font-bold">
+            Submitted &amp; Archived
+          </span>
+          <button id="jumpNextUnattemptedBtn" type="button"
+            class="px-3.5 py-1.5 rounded-xl bg-indigo-50 hover:bg-indigo-100 text-indigo-800 border border-indigo-200 text-xs sm:text-sm font-bold transition cursor-pointer">
+            Jump to Next Unattempted →
+          </button>
+        </div>
+      </div>
+
+      <!-- Empty Filter State -->
+      <div id="quizEmptyState" class="hidden bg-white rounded-2xl border border-slate-200 p-10 text-center shadow-sm">
+        <h3 class="text-lg font-bold text-slate-800">No Questions Match This Filter</h3>
+        <p class="text-sm text-slate-500 mt-1">Clear your search text, format dropdown, or grid status filter to view questions.</p>
+        <button id="resetAllFiltersBtn" type="button"
+          class="mt-4 px-4 py-2 rounded-xl bg-indigo-600 text-white text-sm font-semibold hover:bg-indigo-700 transition cursor-pointer">
+          Reset Filters
+        </button>
+      </div>
+
+      <!-- Side-by-Side Quiz Container -->
+      <div id="quizColumns" class="flex flex-col lg:flex-row gap-6 items-start">
+        <!-- LEFT COLUMN (~68%): Question Card -->
+        <section class="w-full lg:w-[68%] bg-white rounded-2xl border border-slate-200 shadow-sm overflow-hidden">
+          <!-- Card Header -->
+          <div class="px-5 py-3.5 bg-slate-50 border-b border-slate-200 flex flex-wrap items-center justify-between gap-2">
+            <div class="flex flex-wrap items-center gap-2">
+              <span id="qNumBadge" class="px-3 py-1 rounded-lg bg-slate-900 text-white text-xs font-extrabold">
+                Q.301 (1 of 100)
+              </span>
+              <span id="qFormatBadge" class="px-3 py-1 rounded-lg bg-indigo-100 text-indigo-900 text-xs font-bold">
+                Entity Code
+              </span>
+              <span class="px-2.5 py-1 rounded-lg bg-emerald-50 text-emerald-800 border border-emerald-200 text-xs font-bold">
+                +2.00 / -0.66
+              </span>
+            </div>
+            <span class="px-3 py-1 rounded-lg bg-amber-100 text-amber-900 border border-amber-300 text-xs font-bold">
+              Keys: A–D / 1–4 • Arrows: Prev / Next
+            </span>
+          </div>
+
+          <!-- Question Body -->
+          <div class="p-5 sm:p-7">
+            <!-- English Question Stem -->
+            <div id="questionStemContainer" class="text-base sm:text-[17px] font-semibold text-slate-900 leading-relaxed"></div>
+
+            <!-- Options Container (A, B, C, D) -->
+            <div id="optionsContainer" class="space-y-3 mt-6"></div>
+
+            <!-- Immediate Post-Answer Official Key & Detailed English Explanation Box -->
+            <div id="explanationBox" class="hidden mt-6 rounded-2xl border-2 p-4 sm:p-5 transition-all">
+              <div class="flex flex-wrap items-center justify-between gap-2 pb-3 border-b border-black/10">
+                <div class="flex items-center gap-2.5">
+                  <span id="verdictIcon" class="w-7 h-7 rounded-full flex items-center justify-center text-white font-extrabold text-sm">✓</span>
+                  <div>
+                    <div id="verdictTitle" class="font-extrabold text-sm sm:text-base">Correct! +2.00 Marks</div>
+                    <div id="verdictSub" class="text-xs font-semibold opacity-80">Progress auto-saved</div>
+                  </div>
+                </div>
+                <span id="officialKeyBadge" class="px-3 py-1 rounded-lg text-xs font-extrabold bg-white/90 border shadow-2xs">
+                  Official Key: (B)
+                </span>
+              </div>
+
+              <div id="explanationBody" class="mt-3.5 text-sm leading-relaxed"></div>
+            </div>
+          </div>
+
+          <!-- Bottom Navigation Bar -->
+          <div class="px-5 py-4 bg-slate-50 border-t border-slate-200 flex flex-wrap items-center justify-between gap-3">
+            <div class="flex items-center gap-2">
+              <button id="prevBtn" type="button"
+                class="px-4 py-2.5 rounded-xl bg-white hover:bg-slate-100 text-slate-700 border border-slate-300 text-sm font-semibold disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer">
+                ← Previous
+              </button>
+              <button id="clearResponseBtn" type="button"
+                class="px-3.5 py-2.5 rounded-xl bg-white hover:bg-amber-50 text-amber-800 border border-amber-300 text-sm font-semibold disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer">
+                Clear / Re-try Q
+              </button>
+            </div>
+
+            <div class="flex items-center gap-2">
+              <button id="nextBtn" type="button"
+                class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold shadow-sm disabled:opacity-40 disabled:cursor-not-allowed transition cursor-pointer">
+                Next →
+              </button>
+              <button id="finishBottomBtn" type="button"
+                class="px-4 py-2.5 rounded-xl bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-semibold shadow-sm transition cursor-pointer">
+                Finish &amp; View Detailed Result
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <!-- RIGHT COLUMN (~32%): Sticky 301–400 Question Palette Grid -->
+        <aside class="w-full lg:w-[32%] lg:sticky lg:top-36 bg-white rounded-2xl border border-slate-200 shadow-sm p-4 sm:p-5">
+          <div class="flex items-center justify-between pb-3 border-b border-slate-200">
+            <div>
+              <h2 class="text-sm font-extrabold text-slate-900 uppercase tracking-wide">Question Palette (301–400)</h2>
+              <p class="text-xs text-slate-500">Click any number to jump • Auto-saved</p>
+            </div>
+            <span id="gridCountBadge" class="px-2.5 py-1 rounded-lg bg-indigo-50 text-indigo-700 font-bold text-xs">
+              100 Qs
+            </span>
+          </div>
+
+          <!-- Grid Status Filter Pills -->
+          <div class="flex flex-wrap gap-1.5 mt-3">
+            <button type="button" data-grid-filter="ALL" class="grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-900 text-white cursor-pointer">All (100)</button>
+            <button type="button" data-grid-filter="UNATTEMPTED" class="grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 text-slate-700 border border-slate-200 cursor-pointer">Unattempted</button>
+            <button type="button" data-grid-filter="ANSWERED" class="grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 cursor-pointer">Answered</button>
+            <button type="button" data-grid-filter="CORRECT" class="grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 cursor-pointer">Correct</button>
+            <button type="button" data-grid-filter="WRONG" class="grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-rose-50 text-rose-700 border border-rose-200 cursor-pointer">Wrong</button>
+          </div>
+
+          <!-- Live Stats -->
+          <div class="grid grid-cols-2 gap-2 my-3 text-xs font-semibold">
+            <div class="flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-slate-100 text-slate-700">
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-slate-300 inline-block"></span> Unattempted</span>
+              <span id="statUnattempted" class="font-bold">100</span>
+            </div>
+            <div class="flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-indigo-50 text-indigo-800">
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-indigo-600 inline-block"></span> Answered</span>
+              <span id="statAttempted" class="font-bold">0</span>
+            </div>
+            <div class="flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-emerald-50 text-emerald-800">
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-emerald-500 inline-block"></span> Correct</span>
+              <span id="statCorrect" class="font-bold">0</span>
+            </div>
+            <div class="flex items-center justify-between px-2.5 py-1.5 rounded-lg bg-rose-50 text-rose-800">
+              <span class="flex items-center gap-1.5"><span class="w-2.5 h-2.5 rounded-sm bg-rose-500 inline-block"></span> Wrong</span>
+              <span id="statWrong" class="font-bold">0</span>
+            </div>
+          </div>
+
+          <!-- 301-400 Numbered Palette -->
+          <div id="questionGrid" class="grid grid-cols-6 sm:grid-cols-8 lg:grid-cols-6 xl:grid-cols-7 gap-1.5 max-h-[340px] overflow-y-auto pr-1 py-1 grid-scroll"></div>
+
+          <!-- Submit & Scorecard CTA -->
+          <div class="mt-4 pt-3 border-t border-slate-200">
+            <button id="finishSidebarBtn" type="button"
+              class="w-full py-3 px-4 rounded-xl bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-700 hover:to-blue-700 text-white font-bold text-sm shadow-md transition cursor-pointer flex items-center justify-center gap-2">
+              <span>Finish &amp; View Detailed Result</span>
+              <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"/>
+              </svg>
+            </button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 2: DETAILED SCORECARD & REVIEW ==================== -->
+    <section id="resultView" class="hidden space-y-6">
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sm:p-8">
+        <div class="flex flex-col md:flex-row md:items-center md:justify-between gap-4 pb-6 border-b border-slate-200">
+          <div>
+            <div class="flex flex-wrap items-center gap-2">
+              <span class="px-3 py-1 rounded-full bg-emerald-100 text-emerald-800 text-xs font-bold uppercase tracking-wider">
+                Saved Performance Report
+              </span>
+              <span id="resTimestampBadge" class="px-3 py-1 rounded-full bg-slate-100 text-slate-600 text-xs font-semibold">
+                Current Session
+              </span>
+            </div>
+            <h2 id="resTitleHeading" class="text-2xl sm:text-3xl font-extrabold text-slate-900 mt-2">
+              TOPPERS BLUEPRINT: UPPCS Prelims 2026 Current Affairs (Q.301–400) Scorecard
+            </h2>
+            <p class="text-sm text-slate-500 mt-1">
+              UPPCS GS Paper-I Official Marking: +2.00 for Correct • -0.66 (1/3rd) Negative Marking for Incorrect
+            </p>
+          </div>
+
+          <div class="flex flex-wrap gap-2.5">
+            <button id="resBackToQuizBtn" type="button"
+              class="px-4 py-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 text-sm font-semibold transition cursor-pointer">
+              ← Back to Question Grid
+            </button>
+            <button id="resReattemptBtn" type="button"
+              class="px-4 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-700 text-white text-sm font-semibold shadow-sm transition cursor-pointer">
+              Archive &amp; Reattempt Quiz
+            </button>
+          </div>
+        </div>
+
+        <!-- 6 Key Metrics -->
+        <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3.5 mt-6">
+          <div class="p-4 rounded-2xl bg-slate-50 border border-slate-200">
+            <div class="text-xs font-semibold text-slate-500 uppercase">Total Questions</div>
+            <div class="text-2xl font-extrabold text-slate-900 mt-1">100</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-emerald-50 border border-emerald-200">
+            <div class="text-xs font-semibold text-emerald-700 uppercase">Correct (+2.00)</div>
+            <div id="resCorrect" class="text-2xl font-extrabold text-emerald-700 mt-1">0</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-rose-50 border border-rose-200">
+            <div class="text-xs font-semibold text-rose-700 uppercase">Wrong (-0.66)</div>
+            <div id="resWrong" class="text-2xl font-extrabold text-rose-700 mt-1">0</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-slate-100 border border-slate-300">
+            <div class="text-xs font-semibold text-slate-600 uppercase">Unattempted</div>
+            <div id="resUnattempted" class="text-2xl font-extrabold text-slate-800 mt-1">100</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-amber-50 border border-amber-200">
+            <div class="text-xs font-semibold text-amber-800 uppercase">Accuracy %</div>
+            <div id="resAccuracy" class="text-2xl font-extrabold text-amber-800 mt-1">0.0%</div>
+          </div>
+          <div class="p-4 rounded-2xl bg-indigo-600 text-white shadow-sm">
+            <div class="text-xs font-semibold text-indigo-100 uppercase">Net Score / 200</div>
+            <div id="resNetMarks" class="text-2xl font-extrabold mt-1">0.00</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Format-Wise Performance Breakdown -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+        <h3 class="text-lg font-extrabold text-slate-900 mb-4">Question Format-Wise Analysis</h3>
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse text-sm">
+            <thead>
+              <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
+                <th class="py-3 px-4 font-bold rounded-tl-xl">Question Format</th>
+                <th class="py-3 px-3 font-bold text-center">Total</th>
+                <th class="py-3 px-3 font-bold text-center text-emerald-700">Correct</th>
+                <th class="py-3 px-3 font-bold text-center text-rose-700">Wrong</th>
+                <th class="py-3 px-3 font-bold text-center text-slate-600">Skipped</th>
+                <th class="py-3 px-4 font-bold text-right rounded-tr-xl">Accuracy</th>
+              </tr>
+            </thead>
+            <tbody id="formatBreakdownBody" class="divide-y divide-slate-200"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Question-by-Question English Review -->
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3 pb-4 border-b border-slate-200">
+          <div>
+            <h3 class="text-lg font-extrabold text-slate-900">Question-by-Question Review &amp; Rationales (Q.301–400)</h3>
+            <p class="text-xs text-slate-500">Compare your responses against official UPPCS answer keys and detailed rationales</p>
+          </div>
+          <div class="flex flex-wrap gap-2">
+            <button type="button" data-rev-filter="ALL" class="rev-filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold bg-slate-900 text-white cursor-pointer">All (100)</button>
+            <button type="button" data-rev-filter="CORRECT" class="rev-filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 cursor-pointer">Correct Only</button>
+            <button type="button" data-rev-filter="WRONG" class="rev-filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold bg-rose-50 text-rose-700 border border-rose-200 cursor-pointer">Incorrect Only</button>
+            <button type="button" data-rev-filter="UNANSWERED" class="rev-filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200 cursor-pointer">Unanswered Only</button>
+          </div>
+        </div>
+        <div id="reviewListContainer" class="divide-y divide-slate-200 mt-4"></div>
+      </div>
+    </section>
+
+    <!-- ==================== VIEW 3: SAVED ATTEMPT HISTORY ARCHIVE ==================== -->
+    <section id="recordsView" class="hidden space-y-6">
+      <div class="bg-white rounded-2xl border border-slate-200 shadow-sm p-6 sm:p-8">
+        <div class="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 pb-5 border-b border-slate-200">
+          <div>
+            <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-900 text-xs font-bold uppercase tracking-wider">
+              Persistent Attempt Records
+            </span>
+            <h2 class="text-2xl font-extrabold text-slate-900 mt-2">Saved Quiz Attempts &amp; Score History (Q.301–400)</h2>
+            <p class="text-sm text-slate-500 mt-1">
+              Every completed or reattempted session is permanently preserved here so you can track your improvement across attempts.
+            </p>
+          </div>
+          <button id="recordsBackToQuizBtn" type="button"
+            class="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold transition cursor-pointer">
+            ← Back to Practice Quiz
+          </button>
+        </div>
+
+        <div id="recordsEmptyState" class="hidden py-12 text-center">
+          <p class="text-base font-bold text-slate-700">No Archived Attempts Yet</p>
+          <p class="text-sm text-slate-500 mt-1">Click "Submit &amp; Detailed Result" or "Reattempt Quiz" to archive your first scorecard here.</p>
+        </div>
+
+        <div id="recordsTableWrapper" class="overflow-x-auto mt-5">
+          <table class="w-full text-left border-collapse text-sm">
+            <thead>
+              <tr class="bg-slate-100 text-slate-700 border-b border-slate-200">
+                <th class="py-3 px-4 font-bold rounded-tl-xl">Attempt</th>
+                <th class="py-3 px-4 font-bold">Date &amp; Time</th>
+                <th class="py-3 px-3 font-bold text-center">Attempted</th>
+                <th class="py-3 px-3 font-bold text-center text-emerald-700">Correct</th>
+                <th class="py-3 px-3 font-bold text-center text-rose-700">Wrong</th>
+                <th class="py-3 px-3 font-bold text-center">Accuracy</th>
+                <th class="py-3 px-3 font-bold text-right">Net Marks</th>
+                <th class="py-3 px-4 font-bold text-right rounded-tr-xl">Inspect</th>
+              </tr>
+            </thead>
+            <tbody id="recordsTableBody" class="divide-y divide-slate-200"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Banner -->
+  <div id="toastBanner" class="hidden fixed bottom-5 right-5 z-50 px-4 py-3 rounded-xl bg-slate-900 text-white text-xs sm:text-sm font-semibold shadow-lg border border-slate-700 transition-all"></div>
+
+  <script>
+    // =========================================================================
+    // COMPLETE ENGLISH DATASET: QUESTIONS 301 TO 400 (MATCHED PDF 1 + PDF 2)
+    // Schema: [id, format, stem, [optA, optB, optC, optD], correctIdx, explanation]
+    // =========================================================================
+    const QUESTIONS = [
+      [301, "Entity Code",
+        "In December 2025, Union Cooperation Minister Amit Shah inaugurated a Bio-CNG and Fertilizer Plant in Vav-Tharad district of which State?\n1. Rajasthan\n2. Madhya Pradesh\n3. Gujarat\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 3", "2 and 3", "Only 1"],
+        1,
+        "Only 3. On 6 December 2025, Union Minister Amit Shah inaugurated a Bio-CNG and Fertilizer Plant in Vav-Tharad district of Gujarat."
+      ],
+      [302, "Two-Statement",
+        "With reference to 'United Nations Climate Change Conference COP-31 (2026)', which of the following statements is/are correct?\n1. COP-31 is scheduled to be held in Antalya, Türkiye from 9 to 16 November 2026.\n2. Earlier, the 28th session of the FAO Committee on Forestry (COFO-28) was held in Rome, Italy under the theme of forest and landscape restoration.\nSelect the correct answer from the code given below:",
+        ["Neither 1 nor 2", "Only 2", "Both 1 and 2", "Only 1"],
+        1,
+        "Only 2 is correct; Statement 1 is incorrect. UNFCCC COP-31 in Antalya, Türkiye is scheduled to be held from 9 to 20 November 2026 (not 9 to 16 November), while the 28th session of the FAO Committee on Forestry (COFO-28) was held in Rome, Italy (28 September–2 October 2026)."
+      ],
+      [303, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The Bharat Health Terminology Service (BHTS) was launched under the Ayushman Bharat Digital Mission (ABDM).\nReason (R): It provides standardized clinical terminologies and code systems so that different digital-health platforms interpret medical data consistently.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)"],
+        0,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). Alongside >90 crore ABHA accounts, BHTS ensures semantic interoperability across digital health platforms."
+      ],
+      [304, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): With the Prototype Fast Breeder Reactor (PFBR) at Kalpakkam attaining criticality in April 2026, India entered the second stage of its nuclear power programme.\nReason (R): The 500 MWe PFBR was indigenously built by Bharatiya Nabhikiya Vidyut Nigam Limited (BHAVINI) at Kalpakkam, Tamil Nadu.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)"],
+        3,
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A). PFBR marks Stage II because fast breeder reactors utilise Plutonium-239 fuel to breed more fissile fuel than they consume; it was built by BHAVINI at Kalpakkam."
+      ],
+      [305, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (International Index / Report)</th><th>List - II (India's Rank)</th></tr><tr><td>A. Global Hunger Index 2026</td><td>1. 127th</td></tr><tr><td>B. World Happiness Report 2026</td><td>2. 100th</td></tr><tr><td>C. Global Peace Index 2026</td><td>3. 157th</td></tr><tr><td>D. World Press Freedom Index 2026</td><td>4. 116th</td></tr></table>",
+        ["A-4, B-2, C-1, D-3", "A-2, B-1, C-4, D-3", "A-2, B-4, C-1, D-3", "A-3, B-4, C-1, D-2"],
+        2,
+        "A-2, B-4, C-1, D-3. Global Hunger Index 2026 (India: 100th out of 122), World Happiness Report 2026 (India: 116th, Top: Finland), Global Peace Index 2026 (India: 127th, Top: Iceland), and World Press Freedom Index 2026 (India: 157th out of 180, Top: Norway)."
+      ],
+      [306, "Entity Code",
+        "India's first 'Telecom Manufacturing Zone (TMZ)' is being established in which of the following cities?\n1. Indore\n2. Bhopal\n3. Gwalior\nSelect the correct answer from the code given below:",
+        ["Only 3", "1 and 2", "2 and 3", "Only 1"],
+        0,
+        "Only 3. Under an MoU signed on 30 July 2026 between the Department of Telecommunications (DoT) and the Government of Madhya Pradesh, India's first Telecom Manufacturing Zone (TMZ) is being set up at Gwalior."
+      ],
+      [307, "Pair Verification",
+        "Which of the following pairs is/are NOT correctly matched?<table class='match-table'><tr><th>BRICS Meeting in 2026</th><th>Host City in India</th></tr><tr><td>1. 18th BRICS Summit</td><td>New Delhi</td></tr><tr><td>2. 16th BRICS Agriculture Ministers' Meeting</td><td>Indore</td></tr><tr><td>3. 3rd BRICS Transport Ministers' Meeting</td><td>Nagpur</td></tr><tr><td>4. 13th BRICS Education Ministers' Meeting</td><td>Chennai</td></tr></table>Select the correct answer from the code given below:",
+        ["Only 4", "Only 3 and 4", "Only 1", "Only 1, 2 and 3"],
+        0,
+        "Only pair 4 is NOT correctly matched. The 13th BRICS Education Ministers' Meeting in 2026 was hosted in Bhubaneswar, Odisha (not Chennai)."
+      ],
+      [308, "Entity Code",
+        "The '10th ICC Men's T20 World Cup 2026' (won by India in March 2026) was jointly hosted by which of the following countries?\n1. India\n2. Sri Lanka\n3. Bangladesh\n4. Australia\nSelect the correct answer from the code given below:",
+        ["Only 1", "Only 4", "2 and 3", "1 and 2"],
+        3,
+        "1 and 2. Held from 7 February to 8 March 2026 across 55 matches with 20 teams, the 10th ICC Men's T20 World Cup was jointly hosted by India and Sri Lanka."
+      ],
+      [309, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (Grand Slam Tournament 2026)</th><th>List - II (Singles Champion(s))</th></tr><tr><td>A. Australian Open 2026 (Men's Singles)</td><td>1. Alexander Zverev &amp; Elena Rybakina</td></tr><tr><td>B. French Open 2026 (Men's &amp; Women's Singles)</td><td>2. Jannik Sinner &amp; Linda Noskova</td></tr><tr><td>C. Wimbledon 2026 (Men's &amp; Women's Singles)</td><td>3. Carlos Alcaraz (Spain)</td></tr><tr><td>D. US Open 2026 (Men's &amp; Women's Singles)</td><td>4. Alexander Zverev &amp; Mirra Andreeva</td></tr></table>",
+        ["A-1, B-4, C-2, D-3", "A-4, B-3, C-2, D-1", "A-3, B-2, C-4, D-1", "A-3, B-4, C-2, D-1"],
+        3,
+        "A-3, B-4, C-2, D-1. 2026 Grand Slams: Australian Open (Carlos Alcaraz & Elena Rybakina), French Open (Alexander Zverev & Mirra Andreeva), Wimbledon (Jannik Sinner & Linda Noskova), and US Open (Alexander Zverev & Elena Rybakina)."
+      ],
+      [310, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): In May 2026, the Central Information Commission (CIC) ruled that the BCCI is not a 'public authority' under Section 2(h) of the RTI Act, 2005.\nReason (R): The BCCI is registered as a private association under the Tamil Nadu Societies Registration Act, 1975.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)"],
+        0,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). In May 2026, the CIC held that BCCI is registered under the Tamil Nadu Societies Registration Act, 1975, is not 'State' under Article 12, and does not fall under Section 2(h) of the RTI Act."
+      ],
+      [311, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (Sports Award 2026)</th><th>List - II (Recipient(s))</th></tr><tr><td>A. Polly Umrigar Award (Best Men's International Cricketer)</td><td>1. Zafar Iqbal</td></tr><tr><td>B. Best International Cricketer (Women) at BCCI Naman Awards</td><td>2. Roger Binny and Rahul Dravid</td></tr><tr><td>C. Col. C.K. Nayudu Lifetime Achievement Award (2026)</td><td>3. Shubman Gill</td></tr><tr><td>D. Hockey India Major Dhyan Chand Lifetime Achievement Award</td><td>4. Smriti Mandhana</td></tr></table>",
+        ["A-1, B-4, C-2, D-3", "A-4, B-3, C-2, D-1", "A-3, B-4, C-2, D-1", "A-3, B-2, C-4, D-1"],
+        2,
+        "A-3, B-4, C-2, D-1. At the BCCI Naman Awards 2026 (15 March 2026, New Delhi), Shubman Gill won the Polly Umrigar Award, Smriti Mandhana won Best Women's Cricketer, and Roger Binny & Rahul Dravid shared the Col. C.K. Nayudu Award; Zafar Iqbal received the Hockey India Major Dhyan Chand Lifetime Achievement Award."
+      ],
+      [312, "Entity Code",
+        "Who won the Women's Blitz title at the 'Tata Steel Chess India 2026' tournament held in Kolkata in January 2026?\n1. Koneru Humpy\n2. Carissa Yip\n3. Harika Dronavalli\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 2", "2 and 3", "Only 1"],
+        1,
+        "Only 2. American chess player Carissa Yip won the Women's Blitz title at Tata Steel Chess India 2026 in Kolkata."
+      ],
+      [313, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The Green Energy Corridor Phase-III (GEC-III) scheme has a total outlay of ₹1,86,405 crore up to FY 2032-33.\nReason (R): It integrates Intra-State Transmission System development with 50 GWh of battery energy storage to support India's target of 900 GW non-fossil capacity by 2035.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)"],
+        0,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). GEC-III combines ₹1,36,378 crore for Intra-State transmission lines with ₹50,000 crore for 50 GWh BESS."
+      ],
+      [314, "Two-Statement",
+        "With reference to 'Revised Index of Core Industries (Base Year 2022-23)', which of the following statements is/are correct?\n1. With the revision of the base year to 2017-18, Iron Ore has been included as the ninth core industry alongside the earlier eight core industries.\n2. In September 2026, the combined production index of the nine core industries recorded a growth of 7.9%.\nSelect the correct answer from the code given below:",
+        ["Only 1", "Neither 1 nor 2", "Both 1 and 2", "Only 2"],
+        3,
+        "Only 2 is correct; Statement 1 is incorrect. Under the revised Index of Core Industries series, the base year was shifted to 2022-23 (not 2017-18) and Iron Ore was included as the ninth core industry; in September 2026, the nine core industries recorded a combined growth of 7.9%."
+      ],
+      [315, "Two-Statement",
+        "With reference to 'Canadian Prime Minister Mark Carney's official visit to India (February-March 2026)', which of the following statements is/are correct?\n1. During the visit, an agreement worth approximately CAD 2.6 billion was signed between Cameco and India's Department of Atomic Energy for long-term uranium supply.\n2. Both leaders linked India's 'Viksit Bharat' vision with Canada's 'Build Canada Strong' agenda.\nSelect the correct answer from the code given below:",
+        ["Neither 1 nor 2", "Only 2", "Both 1 and 2", "Only 1"],
+        2,
+        "Both statements 1 and 2 are correct. During Canadian PM Mark Carney's visit to India (27 Feb–2 March 2026, marking 79 years of diplomatic relations), the CAD 2.6 billion Cameco-DAE uranium agreement was signed."
+      ],
+      [316, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The Assam Uniform Civil Code Act, 2026 does not apply to Scheduled Tribes in the state.\nReason (R): The Act fixes the minimum legal age of marriage at 21 years for both grooms and brides.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        2,
+        "(A) is true, but (R) is false. Scheduled Tribes are exempted under the Assam UCC Act, 2026, which fixes the minimum marriage age at 21 years for grooms and 18 years for brides."
+      ],
+      [317, "Pair Verification",
+        "Which of the following pairs is/are NOT correctly matched?<table class='match-table'><tr><th>Level of Healthcare (NHA 2022-23)</th><th>Share in Current Health Expenditure (%)</th></tr><tr><td>1. Primary Care</td><td>Around 46%</td></tr><tr><td>2. Secondary Care</td><td>Around 34%</td></tr><tr><td>3. Tertiary Care</td><td>Around 30%</td></tr></table>Select the correct answer from the code given below:",
+        ["Only 2", "1 and 2", "Only 1", "Only 3"],
+        3,
+        "Pair 3 is NOT correctly matched. In the National Health Accounts 2022-23, Current Health Expenditure was distributed as Primary Care (~46%), Secondary Care (~34%), Tertiary Care (~15%, not 30%), and governance/supervision (~4%)."
+      ],
+      [318, "Chronological / Ranking",
+        "Arrange the following countries in descending order of terrorism impact as per the Global Terrorism Index (GTI) 2026:\n1. Burkina Faso\n2. Pakistan\n3. India\n4. Niger\nSelect the correct answer from the code given below:",
+        ["2, 1, 4, 3", "1, 2, 4, 3", "2, 4, 1, 3", "1, 4, 2, 3"],
+        0,
+        "2, 1, 4, 3. In the 13th Global Terrorism Index 2026 (IEP), Pakistan ranked 1st, Burkina Faso 2nd, Niger 3rd, and India 13th among 163 countries."
+      ],
+      [319, "Entity Code",
+        "What name was given by Indian astronomers to the newly discovered distant grand-design spiral galaxy?\n1. Saraswati\n2. Alaknanda\n3. Bhagirathi\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 1", "2 and 3", "Only 2"],
+        3,
+        "Only 2. Indian astronomers discovered a distant grand-design spiral galaxy and named it 'Alaknanda' (while 'VISTA' is India's first indigenous stratospheric super-pressure balloon launched in Vijayawada)."
+      ],
+      [320, "Entity Code",
+        "'Q-FORCE', an integrated digital application launched in May 2026 to streamline logistics and sustainment management, belongs to which service?\n1. Indian Navy\n2. Indian Army\n3. Indian Air Force\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 1", "2 and 3", "Only 2"],
+        3,
+        "Only 2. In May 2026, the Indian Army launched 'Q-FORCE', an integrated digital application for logistics and sustainment management."
+      ],
+      [321, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The India-UK Double Contribution Convention (DCC), operationalised in July 2026, reduces costs for Indian professionals working temporarily in the UK.\nReason (R): It exempts eligible temporary workers and their employers from paying duplicate social-security contributions in both countries.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is true, but (R) is false", "(A) is false, but (R) is true"],
+        1,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). Operational from 15 July 2026 alongside the India-UK CETA, the DCC eliminates double social-security taxation."
+      ],
+      [322, "Entity Code",
+        "Which renowned defence scientist received the 'Dr. Paulos Mar Gregorios Award' in November 2025?\n1. Dr. G. Satheesh Reddy\n2. Dr. Tessy Thomas\n3. Dr. Samir V. Kamat\nSelect the correct answer from the code given below:",
+        ["Only 2", "1 and 2", "2 and 3", "Only 1"],
+        0,
+        "Only 2. Renowned defence scientist Dr. Tessy Thomas ('Missile Woman of India') received the 2025 Dr. Paulos Mar Gregorios Award on 30 November 2025."
+      ],
+      [323, "Two-Statement",
+        "With reference to 'Energy Transition Index (ETI) 2026', which of the following statements is/are correct?\n1. Norway topped the Energy Transition Index 2026, followed by Finland and Denmark.\n2. India ranked 70th in the index, while the Democratic Republic of the Congo ranked last at 120th.\nSelect the correct answer from the code given below:",
+        ["Neither 1 nor 2", "Both 1 and 2", "Only 1", "Only 2"],
+        3,
+        "Only 2 is correct; Statement 1 is incorrect. In the World Economic Forum's Energy Transition Index (ETI) 2026, Sweden (not Norway) topped the global rankings followed by Finland and Denmark, while India ranked 70th and DR Congo ranked last at 120th."
+      ],
+      [324, "Two-Statement",
+        "With reference to 'Supreme Court (Number of Judges) Amendment Proposal, 2026', which of the following statements is/are correct?\n1. The Union Cabinet approved increasing the judicial strength of the Supreme Court by 4 judges.\n2. Under this proposal, the sanctioned strength of Supreme Court judges excluding the Chief Justice of India becomes 35.\nSelect the correct answer from the code given below:",
+        ["Only 1", "Only 2", "Neither 1 nor 2", "Both 1 and 2"],
+        0,
+        "Only 1 is correct; Statement 2 is incorrect. In May 2026, the Union Cabinet approved increasing the judicial strength of the Supreme Court by 4 judges, raising the sanctioned strength of judges excluding the Chief Justice of India from 33 to 37 (not 35)."
+      ],
+      [325, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer using the code given below the lists:<table class='match-table'><tr><th>List - I (16th Finance Commission Criterion)</th><th>List - II (Weightage)</th></tr><tr><td>A. Income Distance (Per-capita GSDP)</td><td>1. 17.5%</td></tr><tr><td>B. Population (2011 Census)</td><td>2. 42.5%</td></tr><tr><td>C. Contribution to GDP</td><td>3. 41.0%</td></tr><tr><td>D. Vertical Share of States in Divisible Pool</td><td>4. 10.0%</td></tr></table>",
+        ["1 2 4 3", "2 1 3 4", "2 1 4 3", "4 1 2 3"],
+        2,
+        "A-2, B-1, C-4, D-3. The 16th Finance Commission (2026-31) kept States' vertical share at 41.0% and assigned horizontal weights of 42.5% to Income Distance, 17.5% to Population (2011), and 10.0% each to Demographic Performance, Area, Forest, and GDP Contribution."
+      ],
+      [326, "Pair Verification",
+        "Which of the following pairs is/are correctly matched?<table class='match-table'><tr><th>Semiconductor Project</th><th>Location</th></tr><tr><td>1. Tata Semiconductor Commercial Chip Fab SEZ</td><td>Dholera, Gujarat</td></tr><tr><td>2. Micron Semiconductor ATMP Facility SEZ</td><td>Sanand, Gujarat</td></tr><tr><td>3. Suchi Semicon OSAT Facility</td><td>Surat, Gujarat</td></tr><tr><td>4. India's 1st Advanced 3D Chip Packaging Unit</td><td>Hyderabad, Telangana</td></tr></table>Select the correct answer from the code given below:",
+        ["Only 1, 2 and 3", "Only 2, 3 and 4", "Only 1 and 2", "Only 1"],
+        0,
+        "Only pairs 1, 2 and 3 are correctly matched. The foundation stone of India's first advanced 3D semiconductor packaging unit (3D Glass Solutions) was laid in Bhubaneswar, Odisha (not Hyderabad)."
+      ],
+      [327, "Two-Statement",
+        "With reference to 'Call for Control of Frontier AI Models (2026)', which of the following statements is/are correct?\n1. It was jointly launched by Finnish President Alexander Stubb and Norwegian Prime Minister Jonas Gahr Støre.\n2. It was unveiled in New York during the High-Level Week of the 81st United Nations General Assembly.\nSelect the correct answer from the code given below:",
+        ["Both 1 and 2", "Only 2", "Neither 1 nor 2", "Only 1"],
+        0,
+        "Both statements 1 and 2 are correct. On 21 September 2026, Finnish President Alexander Stubb and Norwegian PM Jonas Gahr Støre launched 'A Call for Control of Frontier AI Models' at UNGA 81 in New York."
+      ],
+      [328, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (Ramsar Site in Uttar Pradesh)</th><th>List - II (District)</th></tr><tr><td>A. Patna Bird Sanctuary</td><td>1. Ballia</td></tr><tr><td>B. Shekha Jheel Bird Sanctuary</td><td>2. Etah</td></tr><tr><td>C. Jai Prakash Narayan Bird Sanctuary (Surha Tal)</td><td>3. Sant Kabir Nagar</td></tr><tr><td>D. Bakhira Wildlife Sanctuary</td><td>4. Aligarh</td></tr></table>",
+        ["A-4, B-2, C-1, D-3", "A-2, B-4, C-1, D-3", "A-2, B-1, C-4, D-3", "A-3, B-4, C-1, D-2"],
+        1,
+        "A-2, B-4, C-1, D-3. Patna Bird Sanctuary (Etah), Shekha Jheel Bird Sanctuary (Aligarh, 99th site), Jai Prakash Narayan Bird Sanctuary / Surha Tal (Ballia, 100th site), and Bakhira Wildlife Sanctuary (Sant Kabir Nagar)."
+      ],
+      [329, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The 'SUMAN Roadmap 2030', launched in June 2026, aims to achieve zero preventable maternal and newborn deaths in India.\nReason (R): It targets reducing the Maternal Mortality Ratio (MMR) to below 70 per 1,00,000 live births by 2030 in line with the SDG target.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)"],
+        0,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). Launched on 29 June 2026 by Union Health Minister J. P. Nadda, the SUMAN Roadmap 2030 integrates RMNCHA+N interventions to bring MMR below 70 by 2030."
+      ],
+      [330, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): Section 9D of the Mines and Minerals (Development and Regulation) Amendment Act, 2026 restricts State taxes and cesses on mineral-bearing land.\nReason (R): The Act mandates the immediate refund of all mineral taxes collected by States prior to its commencement.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is true, but (R) is false", "(A) is false, but (R) is true", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        1,
+        "(A) is true, but (R) is false. Under the 2026 MMDR Amendment Act, mineral taxes already deposited or recovered prior to commencement will not be refunded."
+      ],
+      [331, "Entity Code",
+        "Which of the following Indian State(s) announced a ban on social media use for children below 16 years of age in March 2026?\n1. Karnataka\n2. Kerala\n3. Tamil Nadu\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 3", "Only 1", "2 and 3"],
+        2,
+        "Only 1. On 6 March 2026, Karnataka announced a ban on social media use for children below 16 years of age (while Andhra Pradesh announced restrictions for children below 13)."
+      ],
+      [332, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer using the code given below the lists:<table class='match-table'><tr><th>List - I (FIFA World Cup 2026 Award / Position)</th><th>List - II (Winner / Country)</th></tr><tr><td>A. Champion (2026 Title Winner)</td><td>1. Argentina</td></tr><tr><td>B. Runner-Up</td><td>2. Spain</td></tr><tr><td>C. Golden Ball (Best Player)</td><td>3. Kylian Mbappé (10 goals)</td></tr><tr><td>D. Golden Boot (Top Goalscorer)</td><td>4. Rodri</td></tr></table>",
+        ["1 2 4 3", "2 1 4 3", "2 4 1 3", "2 1 3 4"],
+        1,
+        "2 1 4 3. At the 23rd FIFA Men's World Cup 2026, Spain defeated Argentina 1-0 in the final to win the title, Spain's Rodri won the Golden Ball, and France's Kylian Mbappé (10 goals) won the Golden Boot."
+      ],
+      [333, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (Indian Sportsperson 2026)</th><th>List - II (Historic Achievement)</th></tr><tr><td>A. Anahat Singh</td><td>1. 99th Chess Grandmaster of India</td></tr><tr><td>B. Neeru Dhanda</td><td>2. First Indian Squash player crowned Junior World Champion</td></tr><tr><td>C. V. S. Rathanvel (Tamil Nadu)</td><td>3. 96th Chess Grandmaster of India</td></tr><tr><td>D. Ethan Vaz (Goa)</td><td>4. Women's Trap Gold at ISSF Shotgun World Cup 2026 (Lonato, Italy)</td></tr></table>",
+        ["A-2, B-4, C-1, D-3", "A-4, B-2, C-1, D-3", "A-2, B-1, C-4, D-3", "A-3, B-4, C-1, D-2"],
+        0,
+        "A-2, B-4, C-1, D-3. Anahat Singh won the World Squash Junior Championship 2026 (beating Egypt's Ruqayya Salem); Neeru Dhanda won Trap Gold at ISSF Shotgun World Cup in Lonato, Italy; Ethan Vaz (Goa) became the 96th GM; and V. S. Rathanvel (TN) became the 99th GM."
+      ],
+      [334, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): UNEP's Emissions Gap Report 2026 states that temporarily exceeding the 1.5°C global warming threshold above pre-industrial levels is now unavoidable.\nReason (R): To stay on the lowest overshoot pathway, global greenhouse gas emissions must fall by 18% by 2030 and 45% by 2035 against 2025 levels.\nSelect the correct answer from the code given below:",
+        ["(A) is true, but (R) is false", "(A) is false, but (R) is true", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        2,
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A). Both are key scientific conclusions of the 17th Emissions Gap Report 2026."
+      ],
+      [335, "Entity Code",
+        "With which of the following European microstates did the European Union sign a landmark Association Agreement in 2026?\n1. Andorra\n2. San Marino\n3. Monaco\n4. Vatican City\nSelect the correct answer from the code given below:",
+        ["Only 4", "1 and 2", "2 and 3", "Only 1"],
+        1,
+        "1 and 2. In 2026, the European Union signed an Association Agreement with Andorra and San Marino extending single-market participation."
+      ],
+      [336, "Pair Verification",
+        "Which of the following pairs is/are NOT correctly matched?<table class='match-table'><tr><th>National Facility (2026)</th><th>Location</th></tr><tr><td>1. India's 1st Alkaline Battery Plant</td><td>Jammu</td></tr><tr><td>2. India's 7th Regional Meteorological Centre</td><td>Jammu</td></tr><tr><td>3. India's 1st Green Hydrogen Plant for Trains</td><td>Bhopal</td></tr></table>Select the correct answer from the code given below:",
+        ["1 and 2", "2 and 3", "Only 3", "Only 1"],
+        2,
+        "Only pair 3 is NOT correctly matched. India's first Green Hydrogen production and storage facility for trains has been established at Jind, Haryana (not Bhopal)."
+      ],
+      [337, "Entity Code",
+        "The 'Aspirational Blocks Programme (ABP)', under which Water Budgeting was introduced in 2026, is steered at the national level by which body?\n1. Central Water Commission\n2. NITI Aayog\n3. National Rainfed Area Authority\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 1", "2 and 3", "Only 2"],
+        3,
+        "Only 2. The Aspirational Blocks Programme (ABP) and its block-level Water Budgeting initiative are steered by NITI Aayog."
+      ],
+      [338, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (Portal / Initiative 2026)</th><th>List - II (Associated Ministry / Body)</th></tr><tr><td>A. DAANVEER Initiative</td><td>1. Digital Gateway for Farmers</td></tr><tr><td>B. Samarth Portal</td><td>2. UIDAI (Aadhaar)</td></tr><tr><td>C. Udai (Mascot)</td><td>3. Ministry of Panchayati Raj</td></tr><tr><td>D. Bharat-VISTAAR</td><td>4. Ministry of Panchayati Raj</td></tr></table>",
+        ["A-1, B-4, C-2, D-3", "A-3, B-4, C-2, D-1", "A-3, B-2, C-4, D-1", "A-4, B-3, C-2, D-1"],
+        1,
+        "A-3, B-4, C-2, D-1. DAANVEER (digital-equipment bundles for panchayats, launched 29 July 2026 by Ministry of Panchayati Raj), Samarth Portal (self-reliant panchayats, 27 July 2026), 'Udai' (Aadhaar mascot launched by UIDAI in Jan 2026), and Bharat-VISTAAR (single digital gateway for farmers)."
+      ],
+      [339, "Entity Code",
+        "Which of the following State(s) was/were declared to have India's first fully paperless judiciary in May 2026?\n1. Kerala\n2. Himachal Pradesh\n3. Sikkim\nSelect the correct answer from the code given below:",
+        ["Only 3", "1 and 2", "2 and 3", "Only 1"],
+        0,
+        "Only 3. On 1 May 2026, Sikkim was declared to have India's first fully paperless judiciary."
+      ],
+      [340, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The UGC Equity Regulations, 2026 mandate every higher education institution to establish an Equal Opportunity Centre (EOC).\nReason (R): The regulations aim to prevent caste-based discrimination against SCs, STs, and OBCs on campuses.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        3,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). To curb caste-based discrimination (explicitly including OBCs alongside SCs and STs), the 2026 regulations mandate EOCs and Equity Committees."
+      ],
+      [341, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (Observance / Day)</th><th>List - II (Date)</th></tr><tr><td>A. Pravasi Bharatiya Divas (PBD)</td><td>1. 3 May</td></tr><tr><td>B. World Press Freedom Day</td><td>2. 10 October</td></tr><tr><td>C. International Day of UN Peacekeepers</td><td>3. 9 January</td></tr><tr><td>D. World Mental Health Day</td><td>4. 29 May</td></tr></table>",
+        ["A-3, B-4, C-1, D-2", "A-2, B-1, C-4, D-3", "A-1, B-3, C-4, D-2", "A-3, B-1, C-4, D-2"],
+        3,
+        "A-3, B-1, C-4, D-2. Pravasi Bharatiya Divas (9 January), World Press Freedom Day (3 May), International Day of UN Peacekeepers (29 May), and World Mental Health Day (10 October)."
+      ],
+      [342, "Entity Code",
+        "'National Coastal Mission 2.0' and the 'Plastic Waste Management (Amendment) Rules, 2026' fall under which of the following Ministries?\n1. Ministry of Earth Sciences\n2. Ministry of Environment, Forest and Climate Change\n3. Ministry of Ports, Shipping and Waterways\nSelect the correct answer from the code given below:",
+        ["1 and 2", "2 and 3", "Only 2", "Only 1"],
+        2,
+        "Only 2. Both National Coastal Mission 2.0 (under NAPCC) and the Plastic Waste Management (Amendment) Rules, 2026 are administered by the Ministry of Environment, Forest and Climate Change (MoEFCC)."
+      ],
+      [343, "Entity Code",
+        "In the Union Budget 2026-27, an incentive of ₹100 crore was announced for a single municipal bond issuance exceeding what amount?\n1. ₹500 crore\n2. ₹1,000 crore\n3. ₹2,500 crore\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 2", "2 and 3", "Only 1"],
+        1,
+        "Only 2. Union Budget 2026-27 announced an incentive of ₹100 crore for a single municipal bond issuance above ₹1,000 crore."
+      ],
+      [344, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (State)</th><th>List - II (Chief Minister Sworn In May 2026)</th></tr><tr><td>A. West Bengal</td><td>1. Himanta Biswa Sarma</td></tr><tr><td>B. Tamil Nadu</td><td>2. V. D. Satheesan</td></tr><tr><td>C. Kerala</td><td>3. Suvendu Adhikari</td></tr><tr><td>D. Assam</td><td>4. C. Joseph Vijay</td></tr></table>",
+        ["A-1, B-4, C-2, D-3", "A-3, B-2, C-4, D-1", "A-4, B-3, C-2, D-1", "A-3, B-4, C-2, D-1"],
+        3,
+        "A-3, B-4, C-2, D-1. Following the May 2026 Assembly election results, Suvendu Adhikari took oath as CM of West Bengal (9 May), C. Joseph Vijay in Tamil Nadu (10 May), Himanta Biswa Sarma in Assam (12 May), and V. D. Satheesan in Kerala (18 May)."
+      ],
+      [345, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer using the code given below the lists:<table class='match-table'><tr><th>List - I (Fiscal Indicator - BE 2026-27)</th><th>List - II (% of GDP)</th></tr><tr><td>A. Fiscal Deficit</td><td>1. 1.5%</td></tr><tr><td>B. Revenue Deficit</td><td>2. 4.3%</td></tr><tr><td>C. Primary Deficit</td><td>3. 55.6%</td></tr><tr><td>D. Central Government Debt-to-GDP</td><td>4. 0.7%</td></tr></table>",
+        ["1 2 4 3", "2 1 3 4", "2 1 4 3", "2 4 1 3"],
+        2,
+        "2 1 4 3. In Union Budget 2026-27 (BE), Fiscal Deficit is estimated at 4.3% of GDP, Revenue Deficit at 1.5%, Primary Deficit at 0.7%, and Central Debt-to-GDP ratio at 55.6%."
+      ],
+      [346, "Two-Statement",
+        "With reference to 'National Conference on Agriculture for Kharif Campaign 2026', which of the following statements is/are correct?\n1. It was held at the NASC Complex, Pusa, New Delhi in May 2026 under the chairmanship of Union Agriculture Minister Shivraj Singh Chouhan.\n2. As an immediate follow-up to the conference, the 'Khet Bachao Abhiyan' was conducted across the country in June 2026.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Both 1 and 2", "Only 1", "Neither 1 nor 2"],
+        1,
+        "Both statements 1 and 2 are correct. Chaired by Shivraj Singh Chouhan on 28-29 May 2026 at Pusa, New Delhi (with Agriculture Ministers from 22 States), the conference launched the 'Khet Bachao Abhiyan' from 1 to 30 June 2026."
+      ],
+      [347, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): According to NFHS-6 (2023-24), the percentage of women aged 20-24 years married before the legal age of 18 declined from 23.3% in NFHS-5 to 20.1%.\nReason (R): The percentage of men aged 25-29 years married before the legal age of 21 declined from 17.7% in NFHS-5 to 15.9% in NFHS-6.\nSelect the correct answer from the code given below:",
+        ["(A) is true, but (R) is false", "(A) is false, but (R) is true", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        2,
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A). Both female and male underage marriage indicators showed a downward trend in NFHS-6."
+      ],
+      [348, "Entity Code",
+        "Which of the following Indian-born female cheetahs have given birth to cubs at Kuno National Park under Project Cheetah by October 2026?\n1. Mukhi\n2. KGP12\n3. KJP21\n4. Daksha\nSelect the correct answer from the code given below:",
+        ["Only 1", "1 and 2", "Only 2, 3 and 4", "Only 1, 2 and 3"],
+        3,
+        "Only 1, 2 and 3. On 5 October 2026, Indian-born female cheetah KJP21 gave birth to five cubs at Kuno National Park, becoming the third Indian-born mother after Mukhi and KGP12."
+      ],
+      [349, "Pair Verification",
+        "Which of the following pairs is/are NOT correctly matched?<table class='match-table'><tr><th>Strait / Chokepoint</th><th>Water Bodies Connected</th></tr><tr><td>1. Strait of Hormuz</td><td>Persian Gulf and Arabian Sea</td></tr><tr><td>2. Strait of Malacca</td><td>Indian Ocean and South China Sea</td></tr><tr><td>3. Bab el-Mandeb</td><td>Mediterranean Sea and Black Sea</td></tr></table>Select the correct answer from the code given below:",
+        ["1 and 2", "2 and 3", "Only 3", "Only 1"],
+        2,
+        "Only pair 3 is NOT correctly matched. Bab el-Mandeb connects the Red Sea and the Gulf of Aden (Arabian Sea), whereas the Turkish Straits (Bosporus and Dardanelles) connect the Mediterranean/Aegean Sea and the Black Sea."
+      ],
+      [350, "Two-Statement",
+        "With reference to 'Fiscal Health Index (FHI) 2026', which of the following statements is/are correct?\n1. Among Major States, Odisha, Goa, and Jharkhand were placed in the top 'Achievers' category.\n2. Uttar Pradesh, Gujarat, and Maharashtra were placed in the 'Front-Runners' category, while Bihar improved from 'Aspirational' to 'Performer'.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Neither 1 nor 2", "Only 1", "Both 1 and 2"],
+        2,
+        "Only 1 is correct (as keyed in the official booklet: Option C). In NITI Aayog's Fiscal Health Index (FHI) 2026, Odisha, Goa, and Jharkhand were placed in the top 'Achievers' category among Major States, while Bihar improved from Aspirational to Performer."
+      ],
+      [351, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The IceCube Neutrino Observatory is located at the South Pole utilizing one cubic kilometre of deep Antarctic ice.\nReason (R): Transparent deep Antarctic ice serves as an optical medium to detect Cherenkov light produced when high-energy astrophysical neutrinos interact with ice.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is true, but (R) is false", "(A) is false, but (R) is true"],
+        1,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). Francis Halzen won the 2026 Physics Nobel for IceCube, which uses 1 cubic km of clear Antarctic ice instrumented with optical sensors."
+      ],
+      [352, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): In July 2025, renewable energy sources met a record 51.5% of India's total electricity demand of 203 GW.\nReason (R): The target capacity under the Solar Parks Scheme was reduced from 40 GW to 20 GW in February 2026.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is true, but (R) is false", "(A) is false, but (R) is true", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        1,
+        "(A) is true, but (R) is false. Under the Solar Parks Scheme, the target capacity was expanded from 20 GW to 40 GW (with 54 solar parks sanctioned by February 2026)."
+      ],
+      [353, "Chronological / Ranking",
+        "Arrange the following Indian billionaires in descending order of their net worth as per the Fortune India Billionaires List (September 2026):\n1. Gautam Adani\n2. Mukesh Ambani\n3. Sunil Mittal & family\n4. Savitri Devi Jindal\nSelect the correct answer from the code given below:",
+        ["2, 1, 4, 3", "1, 2, 4, 3", "2, 4, 1, 3", "2, 1, 3, 4"],
+        0,
+        "2, 1, 4, 3. In the September 2026 Fortune India Rich List, the top five were (1) Mukesh Ambani ($91.12 B), (2) Gautam Adani ($89.49 B), (3) Savitri Devi Jindal ($41.26 B), (4) Shapoor Mistry family ($34.13 B), and (5) Sunil Mittal & family ($29.83 B)."
+      ],
+      [354, "Entity Code",
+        "Which of the following universities became India's first to receive four ISO certifications simultaneously from the Bureau of Indian Standards (BIS) in 2026?\n1. Osmania University, Hyderabad\n2. Banaras Hindu University, Varanasi\n3. University of Delhi\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 3", "Only 1", "2 and 3"],
+        2,
+        "Only 1. Osmania University, Hyderabad became India's first university to simultaneously receive four ISO certifications from the Bureau of Indian Standards (BIS)."
+      ],
+      [355, "Two-Statement",
+        "With reference to 'Right to Information (RTI) Act, 2005', which of the following statements is/are correct?\n1. It completed 21 years of full implementation on 10 October 2026.\n2. It replaced the Freedom of Information Act, 2002.\nSelect the correct answer from the code given below:",
+        ["Neither 1 nor 2", "Only 2", "Both 1 and 2", "Only 1"],
+        1,
+        "Only 2 is correct; Statement 1 is incorrect. The Right to Information (RTI) Act, 2005 received Presidential assent on 15 June 2005 and came into full force on 12 October 2005, completing 21 years of full implementation on 12 October 2026 (not 10 October 2026). It replaced the Freedom of Information Act, 2002."
+      ],
+      [356, "Two-Statement",
+        "With reference to '12th International Day of Yoga (2026)', which of the following statements is/are correct?\n1. Prime Minister Narendra Modi participated in the national International Day of Yoga celebrations in Chennai, West Bengal.\n2. The official theme for International Day of Yoga 2026 was 'Yoga for Healthy Ageing'.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Neither 1 nor 2", "Both 1 and 2", "Only 1"],
+        0,
+        "Only 2 is correct; Statement 1 is incorrect. On 21 June 2026, Prime Minister Narendra Modi participated in the national celebrations of the 12th International Day of Yoga in Kolkata, West Bengal (not Chennai) under the official theme 'Yoga for Healthy Ageing'."
+      ],
+      [357, "Entity Code",
+        "'Unified Payments Interface (UPI)', which completed 10 years in April 2026, was developed by which of the following organisations?\n1. Reserve Bank Innovation Hub (RBIH)\n2. Institute for Development and Research in Banking Technology\n3. National Payments Corporation of India (NPCI)\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 1", "2 and 3", "Only 3"],
+        3,
+        "Only 3. Launched in April 2016 by the National Payments Corporation of India (NPCI), UPI completed 10 years in April 2026."
+      ],
+      [358, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The 17th edition of the Emissions Gap Report 2026 ('The Point of Return') was released by the Intergovernmental Panel on Climate Change (IPCC).\nReason (R): According to the report, global greenhouse gas emissions reached 58.4 GtCO2e in 2025, with G20 members (excluding the African Union) accounting for 76%.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        1,
+        "(A) is false, but (R) is true. The Emissions Gap Report 2026 was released on 21 October 2026 by the United Nations Environment Programme (UNEP), not the IPCC."
+      ],
+      [359, "Entity Code",
+        "The joint maritime exercise between the Indian Coast Guard (ICG) and the Japan Coast Guard (JCG) in January 2026 was held off the coast of which city?\n1. Chennai\n2. Visakhapatnam\n3. Mumbai\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 1", "2 and 3", "Only 3"],
+        3,
+        "Only 3. From 15 to 17 January 2026, the joint maritime exercise between the Indian Coast Guard (ICG) and the Japan Coast Guard (JCG) was held off Mumbai."
+      ],
+      [360, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (Literary Award 2025-26)</th><th>List - II (Recipient &amp; Work)</th></tr><tr><td>A. 35th Saraswati Samman (2025)</td><td>1. R. Vairamuthu (Tamil Poet &amp; Lyricist)</td></tr><tr><td>B. Sahitya Akademi Award in Hindi (2025)</td><td>2. Yáng Shuāng-zi &amp; Lin King ('Taiwan Travelogue')</td></tr><tr><td>C. International Booker Prize 2026</td><td>3. Ramkumar Mukhopadhyay ('Hara Parbati Katha')</td></tr><tr><td>D. 60th Jnanpith Award</td><td>4. Mamta Kalia ('Jeete Jee Allahabad')</td></tr></table>",
+        ["A-1, B-4, C-2, D-3", "A-3, B-4, C-2, D-1", "A-4, B-3, C-2, D-1", "A-3, B-2, C-4, D-1"],
+        1,
+        "A-3, B-4, C-2, D-1. 35th Saraswati Samman - Ramkumar Mukhopadhyay ('Hara Parbati Katha'); Sahitya Akademi Hindi Award (announced 16 March 2026 across 24 languages) - Mamta Kalia ('Jeete Jee Allahabad'); International Booker Prize 2026 (19 May 2026) - Yáng Shuāng-zi & translator Lin King ('Taiwan Travelogue', first Mandarin Chinese winner); 60th Jnanpith - R. Vairamuthu."
+      ],
+      [361, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): In March 2026, the 'Bhavasagara' Referral Centre at CMLRE, Kochi was designated as India's National Repository for Deep-Sea Fauna.\nReason (R): The Centre for Marine Living Resources & Ecology (CMLRE) functions under the Union Ministry of Environment, Forest and Climate Change.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        2,
+        "(A) is true, but (R) is false. While the repository designation under the Biological Diversity Act was made by MoEFCC, CMLRE functions under the Ministry of Earth Sciences (MoES)."
+      ],
+      [362, "Two-Statement",
+        "With reference to 'Prime Minister Narendra Modi's bilateral visit to Ethiopia in December 2025', which of the following statements is/are correct?\n1. During his visit to Addis Ababa, Prime Minister Modi held talks with Ethiopian Prime Minister Dr. Abiy Ahmed Ali and addressed a Joint Session of the Ethiopian Parliament.\n2. India and Ethiopia elevated their bilateral relationship to a Strategic Partnership.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Both 1 and 2", "Neither 1 nor 2", "Only 1"],
+        1,
+        "Both statements 1 and 2 are correct. On 16-17 December 2025, PM Modi made his first bilateral visit to Addis Ababa, addressed the Ethiopian Parliament, received the 'Great Honour Nishan of Ethiopia', and elevated ties to a Strategic Partnership."
+      ],
+      [363, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): In September 2026, Bhutan became the first country in the WHO South-East Asia Region to be validated for eliminating dog-transmitted human rabies as a public health problem.\nReason (R): Bhutan has recorded zero human deaths from dog-mediated rabies since June 2023, meeting WHO's requirement of at least two consecutive rabies-death-free years.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        3,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). Alongside Chile and Mexico globally, Bhutan satisfied the 2018 WHO validation criteria by maintaining zero dog-mediated human rabies deaths since June 2023."
+      ],
+      [364, "Entity Code",
+        "What is the total financial outlay announced by the Government of Uttar Pradesh for the 'UP AI Mission' over a three-year period?\n1. ₹500 crore\n2. ₹1,000 crore\n3. ₹2,000 crore\nSelect the correct answer from the code given below:",
+        ["Only 3", "1 and 2", "2 and 3", "Only 1"],
+        0,
+        "Only 3. The Government of Uttar Pradesh announced the 'UP AI Mission' backed by an investment of ₹2,000 crore over three years."
+      ],
+      [365, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): Over its first decade (2016-2026), the Insolvency and Bankruptcy Code (IBC) shifted India's insolvency regime towards corporate revival.\nReason (R): By March 2026, approved resolution plans in 1,419 cases facilitated the realisation of over ₹4 lakh crore for creditors.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is true, but (R) is false"],
+        2,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). Enacted on 28 May 2016, IBC completed 10 years in May 2026, resolving 1,419 corporate debtors and realising >₹4 lakh crore."
+      ],
+      [366, "Chronological / Ranking",
+        "Under the Legal Metrology (Indian Standard Time) Rules, 2026, arrange the following States through which the 82°30' E Standard Meridian passes from North to South:\n1. Madhya Pradesh\n2. Uttar Pradesh\n3. Andhra Pradesh\n4. Chhattisgarh\nSelect the correct answer from the code given below:",
+        ["2, 1, 4, 3", "1, 2, 4, 3", "2, 4, 1, 3", "1, 4, 2, 3"],
+        0,
+        "2, 1, 4, 3. Notified on 27 August 2026 under the 'One Nation, One Time' framework, Indian Standard Time (UTC+5:30) is based on the 82°30' E meridian, which passes from North to South through Uttar Pradesh, Madhya Pradesh, Chhattisgarh, Odisha, and Andhra Pradesh."
+      ],
+      [367, "Pair Verification",
+        "Which of the following pairs is/are correctly matched?<table class='match-table'><tr><th>Weapon / Platform</th><th>Description / Country</th></tr><tr><td>1. TARA</td><td>India's 1st indigenous precision glide weapon kit</td></tr><tr><td>2. KAL</td><td>Indigenous long-range attack drone (IG Defence)</td></tr><tr><td>3. Oreshnik</td><td>Russian hypersonic ballistic missile</td></tr><tr><td>4. H-561</td><td>Israeli air-defence radar system</td></tr></table>Select the correct answer from the code given below:",
+        ["Only 1 and 2", "Only 1, 2 and 3", "Only 1", "Only 2, 3 and 4"],
+        1,
+        "Only pairs 1, 2 and 3 are correctly matched. H-561 is the Indian Coast Guard's first indigenous Air Cushion Vehicle (Hovercraft) inducted in Goa, not an Israeli radar."
+      ],
+      [368, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): India's Ayush and herbal product exports nearly doubled from USD 1.09 billion in 2014 to USD 2.16 billion in 2023.\nReason (R): The World Health Organization (WHO) integrated Ayurveda, Siddha, and Unani into the Traditional Medicine module of ICD-11.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        0,
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A). Both facts were highlighted in NITI Aayog's 2026 Strategic Roadmap for Making Ayurveda Global."
+      ],
+      [369, "Entity Code",
+        "According to the NCRB 'Crime in India Report 2024', the crime rate against Scheduled Tribe (ST) communities declined from 12.4 in 2023 to what rate in 2024?\n1. 9.5\n2. 11.2\n3. 14.8\nSelect the correct answer from the code given below:",
+        ["Only 1", "Only 3", "2 and 3", "1 and 2"],
+        0,
+        "Only 1. In 2024, atrocities against Scheduled Tribe (ST) communities fell by 23.1% (from 12,960 to 9,966 cases), bringing the crime rate down from 12.4 in 2023 to 9.5 in 2024."
+      ],
+      [370, "Two-Statement",
+        "With reference to '52nd G7 Summit (2026)', which of the following statements is/are correct?\n1. It was held in Évian-les-Bains, France under the presidency of French President Emmanuel Macron.\n2. During the summit, Japanese Prime Minister Sanae Takaichi introduced the 'POWERR Asia' initiative.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Both 1 and 2", "Neither 1 nor 2", "Only 1"],
+        1,
+        "Both statements 1 and 2 are correct. Held in Évian-les-Bains, France (15-17 June 2026) under the theme 'Working Together to Address Major International Challenges', the 52nd G7 Summit marked India's 13th participation (PM Modi's 7th consecutive appearance) and saw Japanese PM Takaichi introduce POWERR Asia."
+      ],
+      [371, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): In NITI Aayog's Fiscal Health Index (FHI) 2026, Odisha, Goa, and Jharkhand were placed in the top 'Achievers' category among Major States.\nReason (R): The Fiscal Health Index evaluates States across five pillars: Quality of Expenditure, Revenue Mobilisation, Fiscal Prudence, Debt Index, and Debt Sustainability.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        3,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). Strong performance across those five fiscal pillars placed Odisha, Goa, and Jharkhand in the Achievers tier (while UP, Gujarat, and Maharashtra were Front-Runners)."
+      ],
+      [372, "Two-Statement",
+        "With reference to 'Institutional Evolution of IDBI Bank', which of the following statements is/are correct?\n1. IDBI originally came into existence as a Development Finance Institution (Industrial Development Bank of India) on 1 July 1964.\n2. Its undertaking was transferred to a banking company with effect from 1 October 2004, and LIC subsequently acquired 51% of its paid-up equity capital in 2019.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Only 1", "Neither 1 nor 2", "Both 1 and 2"],
+        3,
+        "Both statements 1 and 2 are correct. Established on 1 July 1964 as a DFI, IDBI became a scheduled commercial bank from 1 October 2004, saw LIC acquire 51% stake in 2019, and had a 60.72% strategic sale approved by CCEA on 14 October 2026."
+      ],
+      [373, "Pair Verification",
+        "Which of the following pairs is/are NOT correctly matched?<table class='match-table'><tr><th>Budget Parameter (2026-27 BE)</th><th>Target / Estimate</th></tr><tr><td>1. Fiscal Deficit Target</td><td>4.3% of GDP</td></tr><tr><td>2. Revenue Deficit Target</td><td>1.5% of GDP</td></tr><tr><td>3. Nominal GDP Growth Assumption</td><td>12.0%</td></tr></table>Select the correct answer from the code given below:",
+        ["1 and 2", "Only 1", "Only 3", "Only 2"],
+        2,
+        "Pair 3 is NOT correctly matched. The Union Budget 2026-27 assumed a nominal GDP growth rate of 10% (not 12%), while targeting a fiscal deficit of 4.3% of GDP and a revenue deficit of 1.5% of GDP."
+      ],
+      [374, "Entity Code",
+        "Who among the following became the first woman non-medical two-star officer in the Indian defence services in September 2026?\n1. Shaliza Dhami\n2. Shakti Sharma\n3. Sadhna Saxena Nair\nSelect the correct answer from the code given below:",
+        ["1 and 2", "2 and 3", "Only 2", "Only 1"],
+        2,
+        "Only 2. On 1 September 2026, Air Vice Marshal Shakti Sharma assumed charge as Assistant Chief of the Air Staff (Education), becoming the first woman non-medical two-star officer in the Indian Armed Forces."
+      ],
+      [375, "Two-Statement",
+        "With reference to 'Jal Jeevan Mission (JJM) 2.0', which of the following statements is/are correct?\n1. It extends the target for providing tap water connections to all 19.36 crore rural households up to December 2030.\n2. It shifts the mission from an infrastructure-creation approach to a utility-based 24×7 service delivery model.\nSelect the correct answer from the code given below:",
+        ["Neither 1 nor 2", "Both 1 and 2", "Only 1", "Only 2"],
+        0,
+        "Neither 1 nor 2 is correct (as keyed in the official Master Answer Key: Option A). Under Jal Jeevan Mission (JJM) 2.0, the target for providing tap water connections to all 19.36 crore rural households was extended up to December 2028 (not December 2030), and the mission shifts to a utility-based 24×7 model."
+      ],
+      [376, "Two-Statement",
+        "With reference to 'Kigali Amendment to the Montreal Protocol', which of the following statements is/are correct?\n1. Entered into force in January 2019, the Kigali Amendment mandates a binding phase-down of Hydrofluorocarbons (HFCs), which have high global warming potential.\n2. India ratified the Kigali Amendment in 2021, committing to freeze HFC production and consumption starting in 2030.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Only 1", "Both 1 and 2", "Neither 1 nor 2"],
+        1,
+        "Only 1 is correct; Statement 2 is incorrect. Entered into force in January 2019, the Kigali Amendment mandates a binding phase-down of HFCs; India ratified the Amendment in 2021, committing to freeze HFC production and consumption starting in 2028 (not 2030)."
+      ],
+      [377, "Entity Code",
+        "The quarterly 'Indian Telecom Services Performance Indicator Report' is released by which of the following bodies?\n1. Centre for Development of Telematics (C-DOT)\n2. NITI Aayog\n3. Telecom Regulatory Authority of India (TRAI)\nSelect the correct answer from the code given below:",
+        ["Only 3", "1 and 2", "2 and 3", "Only 1"],
+        0,
+        "Only 3. On 12 October 2026, the Telecom Regulatory Authority of India (TRAI) released the Indian Telecom Services Performance Indicator Report (reporting 1,114.17 million internet subscribers in June 2026)."
+      ],
+      [378, "Entity Code",
+        "India's first private Earth Observation (EO) satellite constellation under the public-private partnership (PPP) framework was approved by which body?\n1. Antrix Corporation Limited\n2. IN-SPACe\n3. Defence Space Agency\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 2", "2 and 3", "Only 1"],
+        1,
+        "Only 2. Under the Indian National Space Promotion and Authorization Center (IN-SPACe) PPP framework, India approved its first private Earth Observation (EO) satellite constellation."
+      ],
+      [379, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): At the FAO Committee on Forestry (COFO-28) session in 2026, India highlighted its target of restoring 54,000 hectares of mangroves by 2028.\nReason (R): This mangrove restoration target is being implemented under the 'MISHTI' initiative launched on 5 June 2023.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)"],
+        0,
+        "Both (A) and (R) are true and (R) is the correct explanation of (A). MISHTI (Mangrove Initiative for Shoreline Habitats and Tangible Incomes), launched on 5 June 2023, targets 54,000 ha of mangroves by 2028."
+      ],
+      [380, "Two-Statement",
+        "With reference to 'World Press Freedom Index 2026', which of the following statements is/are correct?\n1. Norway ranked second globally in the 2026 index, followed by the Netherlands and Estonia, while Eritrea ranked last at 180th.\n2. India ranked 157th out of 180 countries with a score of 31.96, slipping six places from 151st in 2025.\nSelect the correct answer from the code given below:",
+        ["Only 1", "Neither 1 nor 2", "Both 1 and 2", "Only 2"],
+        3,
+        "Only 2 is correct; Statement 1 is incorrect. In the World Press Freedom Index 2026 released by Reporters Without Borders (RSF), Norway ranked first (not second) globally, followed by the Netherlands (2nd) and Estonia (3rd), with Eritrea at 180th and India at 157th (score 31.96)."
+      ],
+      [381, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): The ₹1,510-crore Kukrail Night Safari and Zoo project is being developed over 855 acres inside the Kukrail Reserve Forest in Lucknow.\nReason (R): The Kukrail Reserve Forest is home to Uttar Pradesh's first gharial rehabilitation centre, established in 1975.\nSelect the correct answer from the code given below:",
+        ["(A) is true, but (R) is false", "(A) is false, but (R) is true", "Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        2,
+        "Both (A) and (R) are true, but (R) is not the correct explanation of (A). Both statements about Kukrail Reserve Forest in Lucknow are factually correct."
+      ],
+      [382, "Chronological / Ranking",
+        "Arrange the following countries in order of their rank (from 1st to 4th) in the World Press Freedom Index 2026:\n1. Netherlands\n2. Norway\n3. Denmark\n4. Estonia\nSelect the correct answer from the code given below:",
+        ["2, 4, 1, 3", "1, 2, 4, 3", "2, 1, 4, 3", "2, 1, 3, 4"],
+        2,
+        "2, 1, 4, 3. In the World Press Freedom Index 2026 released by Reporters Without Borders (RSF), the top five countries were (1) Norway, (2) Netherlands, (3) Estonia, (4) Denmark, and (5) Sweden (with India at 157th)."
+      ],
+      [383, "Entity Code",
+        "Which city in Uttar Pradesh was recognised as the state's first 'Zero Fresh Waste Dump City' under Swachh Bharat Mission-Urban in January 2026?\n1. Varanasi\n2. Lucknow\n3. Agra\nSelect the correct answer from the code given below:",
+        ["Only 2", "1 and 2", "2 and 3", "Only 1"],
+        0,
+        "Only 2. In January 2026, Lucknow was recognised as the first 'Zero Fresh Waste Dump City' in Uttar Pradesh (and Raj Bhavan in Lucknow was renamed 'Jan Bhavan' on 21 January 2026)."
+      ],
+      [384, "Two-Statement",
+        "With reference to 'Kavach 4.0, India's indigenous Automatic Train Protection (ATP) system', which of the following statements is/are correct?\n1. Developed by the Research Designs and Standards Organisation (RDSO), Kavach is certified to Safety Integrity Level-4 (SIL-4).\n2. Kavach 4.0 automatically applies brakes if the loco pilot fails to act on overspeeding or signals at danger (SPAD) and prevents head-on and rear-end collisions.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Neither 1 nor 2", "Only 1", "Both 1 and 2"],
+        3,
+        "Both statements 1 and 2 are correct. Approved by RDSO at Safety Integrity Level-4 (SIL-4), Kavach 4.0 is being rolled out across high-density Indian Railways routes."
+      ],
+      [385, "Entity Code",
+        "The fourth edition of the 'Uttar Pradesh International Trade Show (UPITS 2026)' was held in September 2026 at which place?\n1. Lucknow\n2. Greater Noida\n3. Varanasi\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 1", "2 and 3", "Only 2"],
+        3,
+        "Only 2. The 4th Uttar Pradesh International Trade Show (UPITS 2026) was held at the India Expo Centre and Mart in Greater Noida from 25 to 29 September 2026."
+      ],
+      [386, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (MSME Category / Scheme)</th><th>List - II (Revised Limit / Budget Outlay)</th></tr><tr><td>A. Micro Enterprise</td><td>1. Investment up to ₹25 crore; Turnover up to ₹100 crore</td></tr><tr><td>B. Small Enterprise</td><td>2. ₹10,000 crore equity commitment</td></tr><tr><td>C. Medium Enterprise</td><td>3. Investment up to ₹2.5 crore; Turnover up to ₹10 crore</td></tr><tr><td>D. SME Growth Fund (2026)</td><td>4. Investment up to ₹125 crore; Turnover up to ₹500 crore</td></tr></table>",
+        ["A-3, B-4, C-1, D-2", "A-3, B-1, C-4, D-2", "A-2, B-1, C-4, D-3", "A-1, B-3, C-4, D-2"],
+        1,
+        "A-3, B-1, C-4, D-2. Under the revised MSME classification effective from 1 April 2025: Micro (₹2.5 cr / ₹10 cr), Small (₹25 cr / ₹100 cr), Medium (₹125 cr / ₹500 cr); the Union Cabinet approved the ₹10,000 crore SME Growth Fund on 6 October 2026."
+      ],
+      [387, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (International Conference / Summit)</th><th>List - II (Host City / Country)</th></tr><tr><td>A. 9th Indian Ocean Conference (IOC) 2026</td><td>1. Seoul, South Korea</td></tr><tr><td>B. World Governments Summit (WGS) 2026</td><td>2. Mauritius</td></tr><tr><td>C. 27th World Knowledge Forum (WKF) 2026</td><td>3. Baku, Azerbaijan</td></tr><tr><td>D. World Telecommunication Development Conference (WTDC-25)</td><td>4. Dubai, UAE</td></tr></table>",
+        ["A-4, B-2, C-1, D-3", "A-2, B-4, C-1, D-3", "A-2, B-1, C-4, D-3", "A-3, B-4, C-1, D-2"],
+        1,
+        "A-2, B-4, C-1, D-3. 9th IOC 2026 (Mauritius, 10-12 April, theme 'Collective Stewardship for Indian Ocean Governance'), WGS 2026 (Dubai, theme 'Shaping Future Governments'), 27th WKF 2026 (Seoul, 8-10 Sept), and WTDC-25 (Baku, Azerbaijan, 17-28 Nov 2025)."
+      ],
+      [388, "Entity Code",
+        "Initiatives from which two countries were selected in October 2026 for the 'UNESCO Prize for Girls' and Women's Education 2026'?\n1. Morocco\n2. Peru\n3. Kenya\n4. Bangladesh\nSelect the correct answer from the code given below:",
+        ["2 and 3", "Only 4", "1 and 2", "Only 1"],
+        2,
+        "1 and 2. On 9 October 2026, UNESCO selected Morocco's 'Project Soar in a Bag' and CARE Peru's 'Girls with Opportunities' for the 2026 Prize for Girls' and Women's Education."
+      ],
+      [389, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (98th Academy Awards 2026 Oscars Category)</th><th>List - II (Winner)</th></tr><tr><td>A. Best Picture</td><td>1. Michael B. Jordan (Sinners)</td></tr><tr><td>B. Best Director</td><td>2. One Battle After Another</td></tr><tr><td>C. Best Actor</td><td>3. Jessie Buckley (Hamnet)</td></tr><tr><td>D. Best Actress</td><td>4. Paul Thomas Anderson</td></tr></table>",
+        ["A-4, B-2, C-1, D-3", "A-3, B-4, C-1, D-2", "A-2, B-1, C-4, D-3", "A-2, B-4, C-1, D-3"],
+        3,
+        "A-2, B-4, C-1, D-3. At the 98th Oscars held in Los Angeles on 15 March 2026: Best Picture - 'One Battle After Another'; Best Director - Paul Thomas Anderson; Best Actor - Michael B. Jordan ('Sinners'); Best Actress - Jessie Buckley ('Hamnet')."
+      ],
+      [390, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer from the code given below the lists:<table class='match-table'><tr><th>List - I (World Leader 2026)</th><th>List - II (Country &amp; Office Assumed)</th></tr><tr><td>A. Fatima Ezzahra El Mansouri</td><td>1. Youngest Prime Minister, Nepal</td></tr><tr><td>B. Sanae Takaichi</td><td>2. First Woman Head of Government, Morocco</td></tr><tr><td>C. Balendra Shah (Balen)</td><td>3. President, Bangladesh</td></tr><tr><td>D. Mirza Fakhrul Islam Alamgir</td><td>4. First Woman Prime Minister, Japan</td></tr></table>",
+        ["A-4, B-2, C-1, D-3", "A-2, B-1, C-4, D-3", "A-2, B-4, C-1, D-3", "A-3, B-4, C-1, D-2"],
+        2,
+        "A-2, B-4, C-1, D-3. Fatima Ezzahra El Mansouri (Morocco's first woman PM, 29 Sept 2026), Sanae Takaichi (Japan's first woman PM, LDP leader), Balendra Shah (Nepal's youngest PM from Rastriya Swatantra Party, 27 March 2026), and Mirza Fakhrul Islam Alamgir (President of Bangladesh, 21 Aug 2026)."
+      ],
+      [391, "Two-Statement",
+        "With reference to 'Nobel Peace Prize 2026 Laureate Navanethem Pillay', which of the following statements is/are correct?\n1. Navi Pillay is a distinguished jurist from South Africa who was honoured for her efforts to promote peace and international law.\n2. She previously served as the United Nations High Commissioner for Human Rights and as a judge of the International Criminal Court (ICC).\nSelect the correct answer from the code given below:",
+        ["Only 2", "Both 1 and 2", "Neither 1 nor 2", "Only 1"],
+        1,
+        "Both statements 1 and 2 are correct. Announced on 9 October 2026, South African jurist Navi Pillay (former UN High Commissioner for Human Rights, ICTR President, and ICC Judge) won the 2026 Nobel Peace Prize."
+      ],
+      [392, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): According to the Sample Registration System (SRS) Bulletin 2024, India's Crude Birth Rate declined to 18.3 per 1,000 population.\nReason (R): The SRS Bulletin is released annually by the National Statistical Office (NSO) under MoSPI.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "(A) is true, but (R) is false", "Both (A) and (R) are true and (R) is the correct explanation of (A)"],
+        2,
+        "(A) is true, but (R) is false. The SRS Bulletin is released by the Office of the Registrar General & Census Commissioner, India (ORGI) under the Ministry of Home Affairs, not NSO/MoSPI."
+      ],
+      [393, "Entity Code",
+        "President Droupadi Murmu presented the 'President of India's Police Colour' on 28 May 2026 to which of the following State Police forces?\n1. Sikkim Police\n2. Assam Police\n3. Uttarakhand Police\nSelect the correct answer from the code given below:",
+        ["1 and 2", "Only 3", "2 and 3", "Only 1"],
+        3,
+        "Only 1. On 28 May 2026, President Droupadi Murmu presented the prestigious 'President of India's Police Colour' to the Sikkim Police at Gangtok (making Sikkim the 15th state overall and 3rd North-Eastern state to receive it)."
+      ],
+      [394, "Two-Statement",
+        "With reference to 'National Clean Air Programme (NCAP)', which of the following statements is/are correct?\n1. Out of 130 NCAP cities, 108 cities recorded an improvement in PM10 levels in FY 2025-26 compared with the 2017-18 baseline.\n2. A total of 26 cities achieved a reduction of more than 30% in PM10 concentrations.\nSelect the correct answer from the code given below:",
+        ["Both 1 and 2", "Only 2", "Neither 1 nor 2", "Only 1"],
+        3,
+        "Only 1 is correct; Statement 2 is incorrect. In FY 2025-26, 108 out of 130 NCAP cities recorded an improvement in PM10 levels over the 2017-18 baseline; 72 cities reduced PM10 by more than 20%, while 26 cities achieved a reduction of more than 40% (not 30%) in PM10 concentrations."
+      ],
+      [395, "Pair Verification",
+        "Which of the following pairs is/are NOT correctly matched?<table class='match-table'><tr><th>Population Category</th><th>1st Rank City in 5th Swachh Vayu Survekshan 2026</th></tr><tr><td>1. More than 10 lakh population</td><td>Lucknow</td></tr><tr><td>2. 3 to 10 lakh population</td><td>Rourkela</td></tr><tr><td>3. Less than 3 lakh population</td><td>Indore</td></tr></table>Select the correct answer from the code given below:",
+        ["Only 3", "Only 1", "Only 2", "1 and 2"],
+        0,
+        "Pair 3 is NOT correctly matched. In the 5th Swachh Vayu Survekshan 2026 (7 September 2026), Lucknow topped the >10 lakh category (followed by Indore and Jabalpur), Rourkela topped the 3-10 lakh category, and Kalinganagar topped the <3 lakh category."
+      ],
+      [396, "Pair Verification",
+        "Which of the following pairs is/are correctly matched?<table class='match-table'><tr><th>Observance Day</th><th>Date</th></tr><tr><td>1. World No Tobacco Day</td><td>31 May</td></tr><tr><td>2. World Environment Day</td><td>5 June</td></tr><tr><td>3. World Oceans Day</td><td>8 June</td></tr><tr><td>4. World Blood Donor Day</td><td>21 June</td></tr></table>Select the correct answer from the code given below:",
+        ["Only 1, 2 and 3", "Only 1 and 2", "Only 2, 3 and 4", "Only 1"],
+        0,
+        "Only pairs 1, 2 and 3 are correctly matched. World Blood Donor Day is observed on 14 June (whereas 21 June is International Day of Yoga)."
+      ],
+      [397, "Assertion-Reason",
+        "Given below are two statements, one is labelled as Assertion (A) and the other as Reason (R).\nAssertion (A): As per the NCRB Crime in India Report 2024, Uttar Pradesh recorded the highest total number of crimes against women.\nReason (R): Crimes against Scheduled Tribe (ST) communities increased by 23.1% in 2024 compared to 2023.\nSelect the correct answer from the code given below:",
+        ["Both (A) and (R) are true, but (R) is not the correct explanation of (A)", "(A) is false, but (R) is true", "Both (A) and (R) are true and (R) is the correct explanation of (A)", "(A) is true, but (R) is false"],
+        3,
+        "(A) is true, but (R) is false. While UP recorded the highest total cases of crimes against women (66,398), crimes against Scheduled Tribes declined by 23.1% in 2024."
+      ],
+      [398, "List-I/List-II Match",
+        "Match List - I with List - II and select the correct answer using the code given below the lists:<table class='match-table'><tr><th>List - I (Global Index)</th><th>List - II (India's Rank)</th></tr><tr><td>A. Asia Power Index 2025 (Lowy Institute)</td><td>1. 23rd</td></tr><tr><td>B. Climate Change Performance Index 2026</td><td>2. 3rd</td></tr><tr><td>C. Global Innovation Index 2025 (WIPO)</td><td>3. 44th</td></tr><tr><td>D. World Competitiveness Ranking 2026 (IMD)</td><td>4. 38th</td></tr></table>",
+        ["1 2 4 3", "2 1 3 4", "2 1 4 3", "2 4 1 3"],
+        2,
+        "2 1 4 3. India ranked 3rd in the Asia Power Index 2025, 23rd in CCPI 2026, 38th in Global Innovation Index 2025, and 44th in World Competitiveness Ranking 2026."
+      ],
+      [399, "Entity Code",
+        "With which Japanese prefecture has the Government of Uttar Pradesh partnered for green hydrogen research and a Centre of Excellence involving IIT Kanpur and IIT (BHU)?\n1. Hokkaido Prefecture\n2. Yamanashi Prefecture\n3. Okinawa Prefecture\nSelect the correct answer from the code given below:",
+        ["1 and 2", "2 and 3", "Only 2", "Only 1"],
+        2,
+        "Only 2. Uttar Pradesh partnered with Japan's Yamanashi Prefecture on green hydrogen technology, joint research, and a Centre of Excellence involving IIT (BHU) Varanasi and IIT Kanpur."
+      ],
+      [400, "Two-Statement",
+        "With reference to 'World Tourism Day 2026', which of the following statements is/are correct?\n1. El Salvador hosted the official global celebrations of World Tourism Day 2026.\n2. The official theme of World Tourism Day 2026 was 'Digital Agenda and Artificial Intelligence to Redesign Tourism'.\nSelect the correct answer from the code given below:",
+        ["Only 2", "Both 1 and 2", "Neither 1 nor 2", "Only 1"],
+        1,
+        "Both statements 1 and 2 are correct. Observed on 27 September 2026, World Tourism Day was hosted by El Salvador under the theme 'Digital Agenda and Artificial Intelligence to Redesign Tourism'."
+      ]
+    ].map(row => ({
+      id: row[0],
+      format: row[1],
+      stem: row[2],
+      options: row[3], // [optA, optB, optC, optD]
+      correctIdx: row[4],
+      explanation: row[5]
+    }));
+
+    const OPT_LABELS = ["A", "B", "C", "D"];
+    const STORAGE_KEY = "toppers_blueprint_uppcs_2026_ca_en_q301_400_v1";
+
+    // =========================================================================
+    // PERSISTENT APPLICATION STATE
+    // =========================================================================
+    const state = {
+      view: "QUIZ", // QUIZ | RESULT | RECORDS
+      currentIndex: 0,
+      answers: {}, // { [qId]: 0 | 1 | 2 | 3 }
+      isSubmitted: false,
+      submittedAt: null,
+      attemptHistory: [],
+      searchQuery: "",
+      formatFilter: "ALL",
+      gridFilter: "ALL",
+      reviewFilter: "ALL",
+      inspectingRecord: null
+    };
+
+    let toastTimer = null;
+    let reattemptConfirmPending = false;
+    let reattemptConfirmTimer = null;
+
+    function showToast(msg) {
+      const el = document.getElementById("toastBanner");
+      el.textContent = msg;
+      el.classList.remove("hidden");
+      clearTimeout(toastTimer);
+      toastTimer = setTimeout(() => el.classList.add("hidden"), 3200);
+    }
+
+    function saveState() {
+      try {
+        const visible = getFilteredQuestions();
+        const activeQ = visible[state.currentIndex] || QUESTIONS[0];
+        const payload = {
+          currentIndex: state.currentIndex,
+          currentQuestionId: activeQ.id,
+          answers: state.answers,
+          isSubmitted: state.isSubmitted,
+          submittedAt: state.submittedAt,
+          attemptHistory: state.attemptHistory,
+          gridFilter: state.gridFilter
+        };
+        localStorage.setItem(STORAGE_KEY, JSON.stringify(payload));
+      } catch (e) {
+        console.warn("Unable to write to localStorage:", e);
+      }
+      updateHeaderTelemetry();
+    }
+
+    function loadState() {
+      try {
+        const raw = localStorage.getItem(STORAGE_KEY);
+        if (!raw) return false;
+        const parsed = JSON.parse(raw);
+        if (!parsed || typeof parsed !== "object") return false;
+        if (typeof parsed.currentIndex === "number") state.currentIndex = parsed.currentIndex;
+        if (parsed.answers && typeof parsed.answers === "object") state.answers = parsed.answers;
+        if (typeof parsed.isSubmitted === "boolean") state.isSubmitted = parsed.isSubmitted;
+        if (parsed.submittedAt) state.submittedAt = parsed.submittedAt;
+        if (Array.isArray(parsed.attemptHistory)) state.attemptHistory = parsed.attemptHistory;
+        if (parsed.gridFilter) state.gridFilter = parsed.gridFilter;
+        return true;
+      } catch (e) {
+        console.warn("Unable to read from localStorage:", e);
+        return false;
+      }
+    }
+
+    function computeStats(answersMap = state.answers) {
+      let correct = 0;
+      let wrong = 0;
+      let unanswered = 0;
+      QUESTIONS.forEach(q => {
+        const chosen = answersMap[q.id];
+        if (chosen === undefined || chosen === null) {
+          unanswered++;
+        } else if (chosen === q.correctIdx) {
+          correct++;
+        } else {
+          wrong++;
+        }
+      });
+      const attempted = correct + wrong;
+      const accuracy = attempted > 0 ? ((correct / attempted) * 100).toFixed(1) : "0.0";
+      const netMarks = (correct * 2.0) - (wrong * 0.66);
+      return { total: QUESTIONS.length, attempted, correct, wrong, unanswered, accuracy, netMarks };
+    }
+
+    function updateHeaderTelemetry() {
+      const st = computeStats();
+      document.getElementById("kpiProgress").textContent = `${st.attempted} / 100`;
+      document.getElementById("kpiCorrect").textContent = st.correct;
+      document.getElementById("kpiWrong").textContent = st.wrong;
+      document.getElementById("kpiNetScore").textContent = st.netMarks.toFixed(2);
+      document.getElementById("kpiAccuracy").textContent = `${st.accuracy}%`;
+      document.getElementById("mobileScoreBadge").textContent = `${st.attempted} / 100`;
+      document.getElementById("recordsCountSpan").textContent = state.attemptHistory.length;
+
+      const visible = getFilteredQuestions();
+      const activeQ = visible[state.currentIndex] || QUESTIONS[0];
+      document.getElementById("persistentStatusText").textContent =
+        `Session Saved • At Q.${activeQ.id} • ${st.attempted}/100 Attempted`;
+    }
+
+    function switchView(target) {
+      state.view = target;
+      document.getElementById("quizView").classList.toggle("hidden", target !== "QUIZ");
+      document.getElementById("resultView").classList.toggle("hidden", target !== "RESULT");
+      document.getElementById("recordsView").classList.toggle("hidden", target !== "RECORDS");
+
+      if (target === "QUIZ") renderQuiz();
+      if (target === "RESULT") {
+        if (state.inspectingRecord) {
+          renderScorecard(state.inspectingRecord.answersSnapshot, state.inspectingRecord.date, `Attempt Archive (${state.inspectingRecord.date})`);
+        } else {
+          renderScorecard(state.answers, state.submittedAt, "Current Session (Q.301 to Q.400)");
+        }
+      }
+      if (target === "RECORDS") renderRecordsArchive();
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+
+    // =========================================================================
+    // FILTERING & RENDERING ACTIVE ENGLISH QUIZ
+    // =========================================================================
+    function getFilteredQuestions() {
+      const qStr = state.searchQuery.trim().toLowerCase();
+      return QUESTIONS.filter(q => {
+        const chosen = state.answers[q.id];
+        if (state.gridFilter === "UNATTEMPTED" && chosen !== undefined) return false;
+        if (state.gridFilter === "ANSWERED" && chosen === undefined) return false;
+        if (state.gridFilter === "CORRECT" && chosen !== q.correctIdx) return false;
+        if (state.gridFilter === "WRONG" && (chosen === undefined || chosen === q.correctIdx)) return false;
+
+        if (state.formatFilter !== "ALL" && q.format !== state.formatFilter) return false;
+
+        if (!qStr) return true;
+        const hay = `${q.id} q.${q.id} ${q.format} ${q.stem} ${q.options.join(" ")} ${q.explanation}`.toLowerCase();
+        return hay.includes(qStr);
+      });
+    }
+
+    function formatRichText(raw) {
+      if (raw.includes("<table")) {
+        return raw.replace(/\n/g, "<br>");
+      }
+      return raw
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/\n/g, "<br>");
+    }
+
+    function renderQuiz() {
+      const st = computeStats();
+      document.getElementById("statUnattempted").textContent = st.unanswered;
+      document.getElementById("statAttempted").textContent = st.attempted;
+      document.getElementById("statCorrect").textContent = st.correct;
+      document.getElementById("statWrong").textContent = st.wrong;
+
+      document.getElementById("submittedBannerChip").classList.toggle("hidden", !state.isSubmitted);
+
+      // Update grid filter pills
+      document.querySelectorAll(".grid-filter-btn").forEach(btn => {
+        const f = btn.getAttribute("data-grid-filter");
+        if (f === state.gridFilter) {
+          btn.className = "grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-900 text-white cursor-pointer";
+        } else if (f === "ANSWERED") {
+          btn.className = "grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-indigo-50 text-indigo-700 border border-indigo-200 cursor-pointer";
+        } else if (f === "CORRECT") {
+          btn.className = "grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-emerald-50 text-emerald-700 border border-emerald-200 cursor-pointer";
+        } else if (f === "WRONG") {
+          btn.className = "grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-rose-50 text-rose-700 border border-rose-200 cursor-pointer";
+        } else {
+          btn.className = "grid-filter-btn px-2.5 py-1 rounded-lg text-[11px] font-bold bg-slate-100 text-slate-700 border border-slate-200 cursor-pointer";
+        }
+      });
+
+      const visible = getFilteredQuestions();
+      document.getElementById("gridCountBadge").textContent = `${visible.length} Qs`;
+
+      const emptyEl = document.getElementById("quizEmptyState");
+      const colsEl = document.getElementById("quizColumns");
+
+      if (visible.length === 0) {
+        emptyEl.classList.remove("hidden");
+        colsEl.classList.add("hidden");
+        return;
+      }
+      emptyEl.classList.add("hidden");
+      colsEl.classList.remove("hidden");
+
+      if (state.currentIndex >= visible.length) state.currentIndex = 0;
+      if (state.currentIndex < 0) state.currentIndex = 0;
+
+      const currentQ = visible[state.currentIndex];
+
+      // Render 301-400 Question Palette Grid
+      const gridEl = document.getElementById("questionGrid");
+      gridEl.innerHTML = "";
+      visible.forEach((q, idx) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.textContent = q.id;
+        btn.title = `Q.${q.id} (${q.format})`;
+
+        const chosen = state.answers[q.id];
+        const isCurr = idx === state.currentIndex;
+
+        let cls = "h-9 w-full rounded-lg text-xs font-bold transition flex items-center justify-center cursor-pointer border ";
+        if (chosen === undefined) {
+          cls += "bg-slate-100 hover:bg-slate-200 text-slate-700 border-slate-300 ";
+        } else if (chosen === q.correctIdx) {
+          cls += "bg-emerald-500 hover:bg-emerald-600 text-white border-emerald-600 shadow-2xs ";
+        } else {
+          cls += "bg-rose-500 hover:bg-rose-600 text-white border-rose-600 shadow-2xs ";
+        }
+
+        if (isCurr) {
+          cls += "ring-2 ring-offset-1 ring-indigo-600 scale-105 z-10 ";
+        }
+
+        btn.className = cls;
+        btn.addEventListener("click", () => {
+          state.currentIndex = idx;
+          saveState();
+          renderQuiz();
+        });
+        gridEl.appendChild(btn);
+      });
+
+      // Render Question Header Badges
+      document.getElementById("qNumBadge").textContent = `Q.${currentQ.id} (${state.currentIndex + 1} of ${visible.length})`;
+      document.getElementById("qFormatBadge").textContent = currentQ.format;
+
+      // Render English Question Stem
+      document.getElementById("questionStemContainer").innerHTML = formatRichText(currentQ.stem);
+
+      // Render Options (A, B, C, D)
+      const chosenIdx = state.answers[currentQ.id];
+      const isAnswered = chosenIdx !== undefined;
+      const optsBox = document.getElementById("optionsContainer");
+      optsBox.innerHTML = "";
+
+      currentQ.options.forEach((optText, idx) => {
+        const btn = document.createElement("button");
+        btn.type = "button";
+        btn.disabled = isAnswered;
+
+        const isSelected = chosenIdx === idx;
+        const isOfficial = idx === currentQ.correctIdx;
+
+        let cardCls = "w-full text-left p-3.5 sm:p-4 rounded-xl border-2 transition flex items-start gap-3.5 ";
+        let badgeCls = "shrink-0 w-7 h-7 rounded-lg flex items-center justify-center font-extrabold text-xs uppercase border ";
+
+        if (!isAnswered) {
+          cardCls += "bg-white hover:bg-indigo-50/60 border-slate-200 hover:border-indigo-400 cursor-pointer";
+          badgeCls += "bg-slate-100 text-slate-700 border-slate-300";
+        } else {
+          cardCls += "cursor-default ";
+          if (isOfficial) {
+            cardCls += "bg-emerald-50 border-emerald-500 text-emerald-950";
+            badgeCls += "bg-emerald-600 text-white border-emerald-600";
+          } else if (isSelected && !isOfficial) {
+            cardCls += "bg-rose-50 border-rose-500 text-rose-950";
+            badgeCls += "bg-rose-600 text-white border-rose-600";
+          } else {
+            cardCls += "bg-slate-50/70 border-slate-200 text-slate-500 opacity-80";
+            badgeCls += "bg-slate-200 text-slate-500 border-slate-300";
+          }
+        }
+
+        btn.className = cardCls;
+
+        let tagHtml = "";
+        if (isAnswered) {
+          if (isSelected && isOfficial) {
+            tagHtml = `<span class="ml-auto shrink-0 px-2.5 py-0.5 rounded-md bg-emerald-600 text-white text-[11px] font-bold">Your Answer • Correct</span>`;
+          } else if (isSelected && !isOfficial) {
+            tagHtml = `<span class="ml-auto shrink-0 px-2.5 py-0.5 rounded-md bg-rose-600 text-white text-[11px] font-bold">Your Answer • Wrong</span>`;
+          } else if (isOfficial) {
+            tagHtml = `<span class="ml-auto shrink-0 px-2.5 py-0.5 rounded-md bg-emerald-100 text-emerald-900 border border-emerald-300 text-[11px] font-bold">Official Answer</span>`;
+          }
+        }
+
+        btn.innerHTML = `
+          <span class="${badgeCls}">${OPT_LABELS[idx]}</span>
+          <span class="text-sm sm:text-base font-semibold leading-snug pt-0.5 flex-1">${optText}</span>
+          ${tagHtml}
+        `;
+
+        if (!isAnswered) {
+          btn.addEventListener("click", () => {
+            selectOptionForCurrent(idx);
+          });
+        }
+        optsBox.appendChild(btn);
+      });
+
+      // Immediate Official Answer & English Explanation Box
+      const expBox = document.getElementById("explanationBox");
+      if (isAnswered) {
+        const isCorrect = chosenIdx === currentQ.correctIdx;
+        const correctLetter = OPT_LABELS[currentQ.correctIdx];
+        const correctOptText = currentQ.options[currentQ.correctIdx];
+
+        expBox.classList.remove("hidden", "bg-emerald-50", "border-emerald-400", "bg-rose-50", "border-rose-400");
+
+        const vIcon = document.getElementById("verdictIcon");
+        const vTitle = document.getElementById("verdictTitle");
+        const vSub = document.getElementById("verdictSub");
+        const kBadge = document.getElementById("officialKeyBadge");
+
+        if (isCorrect) {
+          expBox.classList.add("bg-emerald-50", "border-emerald-400");
+          vIcon.className = "w-7 h-7 rounded-full bg-emerald-600 flex items-center justify-center text-white font-extrabold text-sm";
+          vIcon.textContent = "✓";
+          vTitle.className = "font-extrabold text-sm sm:text-base text-emerald-950";
+          vTitle.textContent = "Correct! +2.00 Marks";
+          vSub.className = "text-xs font-semibold text-emerald-800";
+          vSub.textContent = "Verified against Official UPPCS Answer Key • Auto-saved";
+          kBadge.className = "px-3 py-1 rounded-lg text-xs font-extrabold bg-emerald-100 text-emerald-950 border border-emerald-300";
+        } else {
+          expBox.classList.add("bg-rose-50", "border-rose-400");
+          vIcon.className = "w-7 h-7 rounded-full bg-rose-600 flex items-center justify-center text-white font-extrabold text-sm";
+          vIcon.textContent = "✕";
+          vTitle.className = "font-extrabold text-sm sm:text-base text-rose-950";
+          vTitle.textContent = `Incorrect (-0.66 Marks) • Correct Answer: (${correctLetter})`;
+          vSub.className = "text-xs font-semibold text-rose-800";
+          vSub.textContent = "Review the verified explanation below • Auto-saved";
+          kBadge.className = "px-3 py-1 rounded-lg text-xs font-extrabold bg-rose-100 text-rose-950 border border-rose-300";
+        }
+
+        kBadge.textContent = `Official Key: (${correctLetter})`;
+
+        document.getElementById("explanationBody").innerHTML = `
+          <div class="p-3.5 rounded-xl bg-white/90 border border-black/10">
+            <div class="text-xs font-extrabold uppercase tracking-wider text-slate-600 mb-1.5">
+              Verified Explanation • Official Option (${correctLetter}): ${correctOptText}
+            </div>
+            <p class="text-slate-800 leading-relaxed">${currentQ.explanation}</p>
+          </div>
+        `;
+      } else {
+        expBox.classList.add("hidden");
+      }
+
+      document.getElementById("prevBtn").disabled = state.currentIndex === 0;
+      document.getElementById("nextBtn").disabled = state.currentIndex >= visible.length - 1;
+      document.getElementById("clearResponseBtn").disabled = !isAnswered;
+      updateHeaderTelemetry();
+    }
+
+    function selectOptionForCurrent(optIdx) {
+      const visible = getFilteredQuestions();
+      const currentQ = visible[state.currentIndex];
+      if (!currentQ || state.answers[currentQ.id] !== undefined) return;
+      state.answers[currentQ.id] = optIdx;
+      saveState();
+      renderQuiz();
+    }
+
+    function jumpToNextUnattempted() {
+      const visible = getFilteredQuestions();
+      if (visible.length === 0) return;
+      for (let offset = 1; offset <= visible.length; offset++) {
+        const candidateIdx = (state.currentIndex + offset) % visible.length;
+        const candidateQ = visible[candidateIdx];
+        if (state.answers[candidateQ.id] === undefined) {
+          state.currentIndex = candidateIdx;
+          saveState();
+          renderQuiz();
+          return;
+        }
+      }
+      showToast("All questions in the current view have been attempted!");
+    }
+
+    // =========================================================================
+    // SCORECARD & ARCHIVING LOGIC
+    // =========================================================================
+    function finishAndArchiveCurrentAttempt() {
+      const st = computeStats();
+      const nowStr = new Date().toLocaleString();
+      state.isSubmitted = true;
+      state.submittedAt = nowStr;
+      state.inspectingRecord = null;
+
+      state.attemptHistory.unshift({
+        id: `att_${Date.now()}`,
+        date: nowStr,
+        attempted: st.attempted,
+        correct: st.correct,
+        wrong: st.wrong,
+        unanswered: st.unanswered,
+        accuracy: st.accuracy,
+        netMarks: st.netMarks.toFixed(2),
+        answersSnapshot: { ...state.answers }
+      });
+
+      saveState();
+      showToast("Attempt completed & scorecard saved to Attempt Records!");
+      switchView("RESULT");
+    }
+
+    function renderScorecard(answersMap, timestampLabel, titleContext) {
+      const st = computeStats(answersMap);
+      document.getElementById("resTitleHeading").textContent = `TOPPERS BLUEPRINT: ${titleContext}`;
+      document.getElementById("resTimestampBadge").textContent = timestampLabel
+        ? `Saved Report • ${timestampLabel}`
+        : "Live Auto-Saved Progress";
+      document.getElementById("resCorrect").textContent = st.correct;
+      document.getElementById("resWrong").textContent = st.wrong;
+      document.getElementById("resUnattempted").textContent = st.unanswered;
+      document.getElementById("resAccuracy").textContent = `${st.accuracy}%`;
+      document.getElementById("resNetMarks").textContent = `${st.netMarks.toFixed(2)}`;
+
+      // Format-wise breakdown
+      const formats = [
+        "Entity Code",
+        "Two-Statement",
+        "Assertion-Reason",
+        "List-I/List-II Match",
+        "Pair Verification",
+        "Chronological / Ranking"
+      ];
+      const fBody = document.getElementById("formatBreakdownBody");
+      fBody.innerHTML = "";
+      formats.forEach(fmt => {
+        const subset = QUESTIONS.filter(q => q.format === fmt);
+        let c = 0, w = 0, u = 0;
+        subset.forEach(q => {
+          const ch = answersMap[q.id];
+          if (ch === undefined) u++;
+          else if (ch === q.correctIdx) c++;
+          else w++;
+        });
+        const att = c + w;
+        const acc = att > 0 ? ((c / att) * 100).toFixed(1) + "%" : "—";
+        const tr = document.createElement("tr");
+        tr.className = "hover:bg-slate-50";
+        tr.innerHTML = `
+          <td class="py-2.5 px-4 font-bold text-slate-800">${fmt}</td>
+          <td class="py-2.5 px-3 text-center font-semibold">${subset.length}</td>
+          <td class="py-2.5 px-3 text-center font-bold text-emerald-700">${c}</td>
+          <td class="py-2.5 px-3 text-center font-bold text-rose-700">${w}</td>
+          <td class="py-2.5 px-3 text-center text-slate-500">${u}</td>
+          <td class="py-2.5 px-4 text-right font-bold text-indigo-700">${acc}</td>
+        `;
+        fBody.appendChild(tr);
+      });
+
+      // Question-by-Question English Review
+      const revBox = document.getElementById("reviewListContainer");
+      revBox.innerHTML = "";
+      const filtered = QUESTIONS.filter(q => {
+        const ch = answersMap[q.id];
+        if (state.reviewFilter === "CORRECT") return ch !== undefined && ch === q.correctIdx;
+        if (state.reviewFilter === "WRONG") return ch !== undefined && ch !== q.correctIdx;
+        if (state.reviewFilter === "UNANSWERED") return ch === undefined;
+        return true;
+      });
+
+      if (filtered.length === 0) {
+        revBox.innerHTML = `<p class="py-8 text-center text-sm text-slate-500 font-medium">No questions match this filter.</p>`;
+        return;
+      }
+
+      filtered.forEach(q => {
+        const ch = answersMap[q.id];
+        const isCorr = ch === q.correctIdx;
+
+        let statusBadge = `<span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-slate-100 text-slate-600">Unanswered</span>`;
+        if (ch !== undefined && isCorr) {
+          statusBadge = `<span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-emerald-100 text-emerald-800">Correct (+2.00)</span>`;
+        } else if (ch !== undefined && !isCorr) {
+          statusBadge = `<span class="px-2.5 py-0.5 rounded-full text-xs font-bold bg-rose-100 text-rose-800">Incorrect (-0.66)</span>`;
+        }
+
+        const cLetter = OPT_LABELS[q.correctIdx];
+        const cOpt = q.options[q.correctIdx];
+
+        const item = document.createElement("div");
+        item.className = "py-5 space-y-3";
+        item.innerHTML = `
+          <div class="flex flex-wrap items-center justify-between gap-2">
+            <div class="flex items-center gap-2">
+              <span class="px-2.5 py-0.5 rounded-md bg-slate-900 text-white text-xs font-bold">Q.${q.id}</span>
+              <span class="px-2.5 py-0.5 rounded-md bg-indigo-50 text-indigo-800 text-xs font-bold">${q.format}</span>
+            </div>
+            ${statusBadge}
+          </div>
+
+          <div class="p-3.5 rounded-xl bg-slate-50 border border-slate-200 text-sm sm:text-[15px] font-semibold text-slate-900 leading-relaxed">
+            ${formatRichText(q.stem)}
+          </div>
+
+          <div class="flex flex-wrap gap-2.5 text-xs font-semibold">
+            <span class="px-3 py-1.5 rounded-lg bg-emerald-50 border border-emerald-200 text-emerald-950">
+              Official Key (${cLetter}): ${cOpt}
+            </span>
+            ${ch !== undefined ? `
+              <span class="px-3 py-1.5 rounded-lg ${isCorr ? 'bg-emerald-50 border-emerald-200 text-emerald-950' : 'bg-rose-50 border-rose-200 text-rose-950'} border">
+                Your Choice (${OPT_LABELS[ch]}): ${q.options[ch]}
+              </span>
+            ` : ""}
+          </div>
+
+          <div class="text-xs sm:text-sm bg-slate-50 p-3.5 rounded-xl border border-slate-200 text-slate-700 leading-relaxed">
+            <strong class="text-slate-900">Detailed Rationale:</strong> ${q.explanation}
+          </div>
+        `;
+        revBox.appendChild(item);
+      });
+    }
+
+    // =========================================================================
+    // SAVED ATTEMPT HISTORY ARCHIVE
+    // =========================================================================
+    function renderRecordsArchive() {
+      const emptyEl = document.getElementById("recordsEmptyState");
+      const wrapEl = document.getElementById("recordsTableWrapper");
+      const tbody = document.getElementById("recordsTableBody");
+
+      if (!state.attemptHistory || state.attemptHistory.length === 0) {
+        emptyEl.classList.remove("hidden");
+        wrapEl.classList.add("hidden");
+        return;
+      }
+
+      emptyEl.classList.add("hidden");
+      wrapEl.classList.remove("hidden");
+      tbody.innerHTML = "";
+
+      state.attemptHistory.forEach((rec, idx) => {
+        const tr = document.createElement("tr");
+        tr.className = "hover:bg-slate-50";
+        tr.innerHTML = `
+          <td class="py-3 px-4 font-extrabold text-slate-800">Attempt #${state.attemptHistory.length - idx}</td>
+          <td class="py-3 px-4 text-xs text-slate-600">${rec.date}</td>
+          <td class="py-3 px-3 text-center font-semibold">${rec.attempted} / 100</td>
+          <td class="py-3 px-3 text-center font-bold text-emerald-700">${rec.correct}</td>
+          <td class="py-3 px-3 text-center font-bold text-rose-700">${rec.wrong}</td>
+          <td class="py-3 px-3 text-center font-semibold">${rec.accuracy}%</td>
+          <td class="py-3 px-3 text-right font-extrabold text-indigo-700">${rec.netMarks} / 200</td>
+          <td class="py-3 px-4 text-right">
+            <button type="button" data-open-rec="${idx}"
+              class="px-3 py-1 rounded-lg bg-indigo-50 hover:bg-indigo-100 text-indigo-700 border border-indigo-200 text-xs font-bold transition cursor-pointer">
+              View Report
+            </button>
+          </td>
+        `;
+        tr.querySelector(`[data-open-rec="${idx}"]`).addEventListener("click", () => {
+          state.inspectingRecord = rec;
+          switchView("RESULT");
+        });
+        tbody.appendChild(tr);
+      });
+    }
+
+    // =========================================================================
+    // REATTEMPT WITH AUTOMATIC ARCHIVING
+    // =========================================================================
+    function triggerReattemptFlow(btnEl, defaultLabel) {
+      if (!reattemptConfirmPending) {
+        reattemptConfirmPending = true;
+        btnEl.textContent = "Click again to Archive & Reset";
+        clearTimeout(reattemptConfirmTimer);
+        reattemptConfirmTimer = setTimeout(() => {
+          reattemptConfirmPending = false;
+          btnEl.textContent = defaultLabel;
+        }, 4000);
+        return;
+      }
+
+      clearTimeout(reattemptConfirmTimer);
+      reattemptConfirmPending = false;
+      btnEl.textContent = defaultLabel;
+
+      const st = computeStats();
+      if (st.attempted > 0) {
+        state.attemptHistory.unshift({
+          id: `att_${Date.now()}`,
+          date: new Date().toLocaleString() + " (Pre-Reattempt Archive)",
+          attempted: st.attempted,
+          correct: st.correct,
+          wrong: st.wrong,
+          unanswered: st.unanswered,
+          accuracy: st.accuracy,
+          netMarks: st.netMarks.toFixed(2),
+          answersSnapshot: { ...state.answers }
+        });
+      }
+
+      state.answers = {};
+      state.currentIndex = 0;
+      state.isSubmitted = false;
+      state.submittedAt = null;
+      state.inspectingRecord = null;
+      state.gridFilter = "ALL";
+      state.formatFilter = "ALL";
+      state.searchQuery = "";
+      document.getElementById("quizSearchInput").value = "";
+      document.getElementById("formatFilterSelect").value = "ALL";
+
+      saveState();
+      switchView("QUIZ");
+      showToast("Previous attempt archived! Ready for fresh reattempt at Q.301.");
+    }
+
+    // =========================================================================
+    // EVENT LISTENERS
+    // =========================================================================
+    document.getElementById("homeLogoBtn").addEventListener("click", () => { state.inspectingRecord = null; switchView("QUIZ"); });
+    document.getElementById("navQuizBtn").addEventListener("click", () => { state.inspectingRecord = null; switchView("QUIZ"); });
+    document.getElementById("navRecordsBtn").addEventListener("click", () => switchView("RECORDS"));
+
+    document.getElementById("quizSearchInput").addEventListener("input", e => {
+      state.searchQuery = e.target.value;
+      state.currentIndex = 0;
+      renderQuiz();
+    });
+
+    document.getElementById("formatFilterSelect").addEventListener("change", e => {
+      state.formatFilter = e.target.value;
+      state.currentIndex = 0;
+      renderQuiz();
+    });
+
+    document.querySelectorAll(".grid-filter-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        state.gridFilter = btn.getAttribute("data-grid-filter");
+        state.currentIndex = 0;
+        saveState();
+        renderQuiz();
+      });
+    });
+
+    document.getElementById("resetAllFiltersBtn").addEventListener("click", () => {
+      state.searchQuery = "";
+      state.formatFilter = "ALL";
+      state.gridFilter = "ALL";
+      document.getElementById("quizSearchInput").value = "";
+      document.getElementById("formatFilterSelect").value = "ALL";
+      saveState();
+      renderQuiz();
+    });
+
+    document.getElementById("jumpNextUnattemptedBtn").addEventListener("click", jumpToNextUnattempted);
+
+    document.getElementById("prevBtn").addEventListener("click", () => {
+      if (state.currentIndex > 0) {
+        state.currentIndex--;
+        saveState();
+        renderQuiz();
+      }
+    });
+
+    document.getElementById("nextBtn").addEventListener("click", () => {
+      const visible = getFilteredQuestions();
+      if (state.currentIndex < visible.length - 1) {
+        state.currentIndex++;
+        saveState();
+        renderQuiz();
+      }
+    });
+
+    document.getElementById("clearResponseBtn").addEventListener("click", () => {
+      const visible = getFilteredQuestions();
+      const q = visible[state.currentIndex];
+      if (q && state.answers[q.id] !== undefined) {
+        delete state.answers[q.id];
+        saveState();
+        renderQuiz();
+        showToast(`Response cleared for Q.${q.id} — you can reattempt it now.`);
+      }
+    });
+
+    document.getElementById("finishTopBtn").addEventListener("click", finishAndArchiveCurrentAttempt);
+    document.getElementById("finishBottomBtn").addEventListener("click", finishAndArchiveCurrentAttempt);
+    document.getElementById("finishSidebarBtn").addEventListener("click", finishAndArchiveCurrentAttempt);
+
+    document.getElementById("reattemptQuizBtn").addEventListener("click", function () {
+      triggerReattemptFlow(this, "Reattempt Quiz");
+    });
+    document.getElementById("resReattemptBtn").addEventListener("click", function () {
+      triggerReattemptFlow(this, "Archive & Reattempt Quiz");
+    });
+
+    document.getElementById("resBackToQuizBtn").addEventListener("click", () => { state.inspectingRecord = null; switchView("QUIZ"); });
+    document.getElementById("recordsBackToQuizBtn").addEventListener("click", () => { state.inspectingRecord = null; switchView("QUIZ"); });
+
+    document.querySelectorAll(".rev-filter-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        state.reviewFilter = btn.getAttribute("data-rev-filter");
+        document.querySelectorAll(".rev-filter-btn").forEach(b => {
+          b.className = "rev-filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold bg-slate-100 text-slate-700 border border-slate-200 cursor-pointer";
+        });
+        btn.className = "rev-filter-btn px-3.5 py-1.5 rounded-xl text-xs font-bold bg-slate-900 text-white cursor-pointer";
+        if (state.inspectingRecord) {
+          renderScorecard(state.inspectingRecord.answersSnapshot, state.inspectingRecord.date, `Attempt Archive (${state.inspectingRecord.date})`);
+        } else {
+          renderScorecard(state.answers, state.submittedAt, "Current Session (Q.301 to Q.400)");
+        }
+      });
+    });
+
+    // Export / Import JSON Progress Data
+    document.getElementById("exportJsonBtn").addEventListener("click", () => {
+      saveState();
+      const raw = localStorage.getItem(STORAGE_KEY) || "{}";
+      const blob = new Blob([raw], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = `TOPPERS_BLUEPRINT_UPPCS_2026_EN_Q301_400_${new Date().toISOString().slice(0, 10)}.json`;
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+      URL.revokeObjectURL(url);
+      showToast("Quiz progress & attempt records exported to JSON!");
+    });
+
+    const importFileInput = document.getElementById("importFileInput");
+    document.getElementById("importJsonBtn").addEventListener("click", () => importFileInput.click());
+    importFileInput.addEventListener("change", e => {
+      const file = e.target.files[0];
+      if (!file) return;
+      const reader = new FileReader();
+      reader.onload = ev => {
+        try {
+          const parsed = JSON.parse(ev.target.result);
+          if (!parsed || typeof parsed.answers !== "object") {
+            showToast("Invalid JSON backup file.");
+            return;
+          }
+          localStorage.setItem(STORAGE_KEY, JSON.stringify(parsed));
+          loadState();
+          renderQuiz();
+          showToast("Progress & attempt records restored from JSON!");
+        } catch (err) {
+          showToast("Error reading JSON file.");
+        }
+      };
+      reader.readAsText(file);
+      importFileInput.value = "";
+    });
+
+    // Keyboard Shortcuts: Left/Right Arrows & A/B/C/D or 1/2/3/4 keys
+    document.addEventListener("keydown", e => {
+      if (state.view !== "QUIZ" || document.activeElement.tagName === "INPUT" || document.activeElement.tagName === "SELECT") return;
+      const visible = getFilteredQuestions();
+      if (e.key === "ArrowLeft" && state.currentIndex > 0) {
+        state.currentIndex--;
+        saveState();
+        renderQuiz();
+        return;
+      }
+      if (e.key === "ArrowRight" && state.currentIndex < visible.length - 1) {
+        state.currentIndex++;
+        saveState();
+        renderQuiz();
+        return;
+      }
+      const keyUpper = e.key.toUpperCase();
+      if (["A", "B", "C", "D"].includes(keyUpper)) {
+        selectOptionForCurrent(OPT_LABELS.indexOf(keyUpper));
+      } else if (["1", "2", "3", "4"].includes(keyUpper)) {
+        selectOptionForCurrent(parseInt(keyUpper, 10) - 1);
+      }
+    });
+
+    // Boot Application
+    const wasRestored = loadState();
+    renderQuiz();
+    if (wasRestored && Object.keys(state.answers).length > 0) {
+      const activeQ = QUESTIONS[state.currentIndex] || QUESTIONS[0];
+      showToast(`Progress Restored • ${Object.keys(state.answers).length}/100 answered • Resumed at Q.${activeQ.id}`);
+    }
+  </script>
+</body>
+</html>
